@@ -1,11 +1,12 @@
 # Design Pattern in Unity3D
 
 [中文](README.md)
+
 This repository is a collection of Design Patterns in Unity,written in C#.
 
 Design patterns are great.Many design patterns are subtle just by looking at them,but for some people (at least me as a beginner), the biggest problem is not knowing what design patterns are for and when to use them.
 
-So I try to explain design patterns in a new form:
+So **I try to explain design patterns in a new form**:
 
 For each design pattern, I will first ask a question: If you throw away all the design patterns, how would you achieve a certain function?
 
@@ -44,6 +45,35 @@ A link to my blog post, which contains code explanations and detailed ideas.
 ## Content
 
 Examples that have been completed so far are：
+
+**Behavioral design patterns**
+- [] Chain Of Responsibility
+- [] Command
+- [] Iterator
+- [] Mediator
+- [] Memento
+- [] Observer
+- [] State
+- [] Strategy
+- [] Template Method
+- [] Visitor
+
+**Structural Patterns**
+- [] Adapter
+- [] Bridge
+- [] Composite
+- [] Decorator
+- [] Facade
+- [x] Flyweight
+- [] Proxy
+
+
+**Creational Patterns**
+- [] Factory Method
+- [] Abstract Factory
+- [] Builder
+- [] Prototype
+- [] Singleton
 
 ## Acknowledgements
 
