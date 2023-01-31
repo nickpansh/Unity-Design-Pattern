@@ -90,7 +90,7 @@
 - [] Factory Method
 - [] Abstract Factory
 - [] Builder
-- [] Prototype
+- [x] Prototype
 - [] Singleton
 
 ## 致谢

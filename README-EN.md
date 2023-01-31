@@ -99,7 +99,7 @@ Examples that have been completed so far are：
 - [] Factory Method
 - [] Abstract Factory
 - [] Builder
-- [] Prototype
+- [x] Prototype
 - [] Singleton
 
 ## Acknowledgements
