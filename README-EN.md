@@ -4,13 +4,15 @@
 
 This repository is a collection of Design Patterns in Unity,written in C#.
 
-Design patterns are great.Many design patterns are subtle just by looking at them,but for some people (at least me as a beginner), the biggest problem is not knowing what design patterns are for and when to use them.
+Design patterns are great.Many design patterns are subtle just by looking at them,but for some people (at least me as a beginner), the biggest problem is not knowing **why and when to use them**.
 
 So **I try to explain design patterns in a new form**:
 
 For each design pattern, I will first ask a question: If you throw away all the design patterns, how would you achieve a certain function?
 
 Then I will give the bad code and the good code using the design pattern to help readers better understand the design pattern.
+
+I will try to make this example as practical as possible.
 
 It is recommended to read it together with a book listed in the Reference, and then write the code yourself.
 
@@ -52,7 +54,7 @@ Examples that have been completed so far are：
 - [] Iterator
 - [] Mediator
 - [] Memento
-- [] Observer
+- [x] Observer
 - [] State
 - [] Strategy
 - [] Template Method
