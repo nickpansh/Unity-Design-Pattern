@@ -19,11 +19,15 @@
 2. 一些使用非常广泛的设计模式，你应该用过，但就是想再深入看看Unity引擎在哪些地方用了这个设计模式。（如单例，原型等）
 
 对于第一种情况。
-在介绍设计模式前，我会先抛出一个问题：**如果抛开所有的设计模式，你会如何实现某一个功能？**
+在介绍设计模式前，我会先抛出一个问题：
+
+**如果抛开所有的设计模式，你会如何实现某一个功能？**
+
 然后我会给出坏代码和使用了设计模式的好代码，来帮助读者来更好地理解设计模式。
 
 希望这种形式能帮助你更好地理解设计模式。
 对于第二种情况。
+
 **我会着重如何在Unity里使用它[UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)(Unity的C#的部分源码)里是怎么使用它的。**
 
 建议配合一本参考资料里列出的书一起看，然后再动手自己写一遍代码。
@@ -70,7 +74,7 @@
 - [] Iterator
 - [] Mediator
 - [] Memento
-- [x] Observer
+- [x] [Observer](./Assets/Observer/README.md)
 - [] State
 - [] Strategy
 - [] Template Method
@@ -82,7 +86,7 @@
 - [] Composite
 - [] Decorator
 - [] Facade
-- [x] 享元模式
+- [x] [享元模式](./Assets/Flyweight/README.md)
 - [] Proxy
 
 
@@ -90,7 +94,7 @@
 - [] Factory Method
 - [] Abstract Factory
 - [] Builder
-- [x] Prototype
+- [x] [Prototype](./Assets/Prototype/README.md)
 - [] Singleton
 
 ## 致谢

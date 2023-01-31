@@ -23,13 +23,16 @@ I divide design patterns into two categories, they are:
 
 
 For the first case.
-**I will first ask one question: If you throw away all the design patterns, how would you achieve a certain function?**
+**I will first ask one question: **
+
+**If you throw away all the design patterns, how would you achieve a certain function?**
 
 Then I will give the bad code and the good code using the Design Pattern to help readers better understand the Design Pattern.
 
 **Hope this form helps you understand Design Patterns better.**
 
 For the second case.
+
 **I will focus on how to use it in Unity and How unity [UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)(C# part of the Unity engine code) use it.**
 
 
@@ -79,7 +82,7 @@ Examples that have been completed so far are：
 - [] Iterator
 - [] Mediator
 - [] Memento
-- [x] Observer
+- [x] [Observer](./Assets/Observer/README.md)
 - [] State
 - [] Strategy
 - [] Template Method
@@ -91,7 +94,7 @@ Examples that have been completed so far are：
 - [] Composite
 - [] Decorator
 - [] Facade
-- [x] Flyweight
+- [x] [Flyweight](./Assets/Flyweight/README.md)
 - [] Proxy
 
 
@@ -99,7 +102,7 @@ Examples that have been completed so far are：
 - [] Factory Method
 - [] Abstract Factory
 - [] Builder
-- [x] Prototype
+- [x] [Prototype](./Assets/Prototype/README.md)
 - [] Singleton
 
 ## Acknowledgements
