@@ -1,11 +1,12 @@
 # 在Unity3D中使用设计模式
 
 [Engligh](README.md)
+
 这个仓库是在Unity3D中实现设计模式的合集，使用C#编写。
 
 设计模式非常棒。许多的设计模式单单是看起来就很精妙，但对于部分人（起码对于初学时地我）而言，最大的困扰是不知道设计模式的用途是什么以及什么时候使用它。
 
-所以我尝试用一个全新的形式来讲解设计模式：
+所以**我尝试用一个全新的形式来讲解设计模式**：
 
 对于每一个设计模式，我都会先抛出一个问题：如果抛开所有的设计模式，你会如何实现某一个功能？
 
@@ -45,6 +46,34 @@
 
 目前已经完成的例子有：
 
+**行为型模式**
+- [] Chain Of Responsibility
+- [] Command
+- [] Iterator
+- [] Mediator
+- [] Memento
+- [] Observer
+- [] State
+- [] Strategy
+- [] Template Method
+- [] Visitor
+
+**结构型模式**
+- [] Adapter
+- [] Bridge
+- [] Composite
+- [] Decorator
+- [] Facade
+- [x] 享元模式
+- [] Proxy
+
+
+**创建型模式**
+- [] Factory Method
+- [] Abstract Factory
+- [] Builder
+- [] Prototype
+- [] Singleton
 
 ## 致谢
 
