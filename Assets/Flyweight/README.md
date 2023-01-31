@@ -1,9 +1,21 @@
+<!--
+ * @Author: NickPansh
+ * @Date: 2023-01-31 13:27:56
+ * @LastEditors: NickPansh
+ * @LastEditTime: 2023-01-31 16:29:35
+ * @FilePath: \Unity-Design-Pattern\Assets\Flyweight\README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
+-->
 # 享元模式Flyweight
 
 
 ## Brief
 
 > **享元模式**是一种结构型设计模式， 它摒弃了在每个对象中保存所有数据的方式， 通过共享多个对象所共有的相同状态， 让你能在有限的内存容量中载入更多对象。
+
+See More:[Refactoring.Guru](https://refactoring.guru/design-patterns/flyweight)
 
 ## The Question
 
