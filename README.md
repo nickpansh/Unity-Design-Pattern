@@ -26,6 +26,7 @@
 然后我会给出坏代码和使用了设计模式的好代码，来帮助读者来更好地理解设计模式。
 
 希望这种形式能帮助你更好地理解设计模式。
+
 对于第二种情况。
 
 **我会着重如何在Unity里使用它[UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)(Unity的C#的部分源码)里是怎么使用它的。**
