@@ -4,17 +4,29 @@
 
 这个仓库是在Unity3D中实现设计模式的合集，使用C#编写。
 
-设计模式非常棒。许多的设计模式单单是看起来就很精妙，但对于部分人（起码对于初学时地我）而言，**最大的困扰是不知道为什么以及什么时候用这个设计模式**。
+设计模式非常棒。许多的设计模式单单是看起来就很精妙，但对于部分人（起码对于初学时地我）而言，最大的困扰是：
+
+- 我不知道设计模式的用途是什么以及什么时候使用它。
+- 我曾今都学过他们，但工作后我基本都忘掉了。
+- 我应该都使用过，但我想看看别人（尤其是一些好的项目的源代码）是如何使用它的。
 
 所以**我尝试用一个全新的形式来讲解设计模式**：
 
-对于每一个设计模式，我都会先抛出一个问题：如果抛开所有的设计模式，你会如何实现某一个功能？
+我把设计模式分为两类，他们分别是：
 
+1. 一些使用不那么广泛的设计模式，你应该听过他们的名字，但就是不清楚什么时候该使用它——它离使用太遥远了
+
+2. 一些使用非常广泛的设计模式，你应该用过，但就是想再深入看看Unity引擎在哪些地方用了这个设计模式。（如单例，原型等）
+
+对于第一种情况。
+在介绍设计模式前，我会先抛出一个问题：**如果抛开所有的设计模式，你会如何实现某一个功能？**
 然后我会给出坏代码和使用了设计模式的好代码，来帮助读者来更好地理解设计模式。
 
-我会尽可能让这个例子更贴近于实际应用。
+希望这种形式能帮助你更好地理解设计模式。
+对于第二种情况。
+**我会着重如何在Unity里使用它[UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)(Unity的C#的部分源码)里是怎么使用它的。**
 
-建议配合一本参考资料里列出的书一起看，然后再动手自己写一遍代码。x`
+建议配合一本参考资料里列出的书一起看，然后再动手自己写一遍代码。
 
 希望这能帮助到你们！
 
@@ -38,6 +50,10 @@
 ### Good Code Example
 
 使用设计模式实现这个需求的代码示例。
+
+### (可能会有) Let's see the source code
+
+[UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)里的源码
 
 ### Post
 一个我的博客文章的链接，里面会包含代码的详细解释和更多细节。
@@ -74,7 +90,7 @@
 - [] Factory Method
 - [] Abstract Factory
 - [] Builder
-- [] Prototype
+- [x] Prototype
 - [] Singleton
 
 ## 致谢
@@ -97,6 +113,11 @@
 - [Habrador/Unity-Programming-Patterns](https://github.com/Habrador/Unity-Programming-Patterns)
 
 - [QianMo/Unity-Design-Pattern](https://github.com/QianMo/Unity-Design-Pattern)
+
+- [UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)
+
+- [.NET Framework](https://referencesource.microsoft.com/)
+
 ## License
 
 本工程使用[MIT授权协议](https://opensource.org/licenses/MIT)。
