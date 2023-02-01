@@ -23,6 +23,8 @@
 
 **如果抛开所有的设计模式，你会如何实现某一个功能？**
 
+这个需求会是游戏开发领域内的具体的需求，而非是很多书或者示例里提的空泛的概念（如在餐厅里点单，复制一个动物,Square和Cirle继承Shape,MyShapeFactory等)。
+
 然后我会给出坏代码和使用了设计模式的好代码，来帮助读者来更好地理解设计模式。
 
 希望这种形式能帮助你更好地理解设计模式。
@@ -69,13 +71,21 @@
 
 目前已经完成的例子有：
 
+**创建型模式**
+- [x] [Factory Method](./Assets/FactoryMethod/README.md)
+- [] Abstract Factory
+- [] Builder
+- [x] [原型模式](./Assets/Prototype/README.md)
+- [x] [单例模式](./Assets/Singleton/README.md)
+
+
 **行为型模式**
 - [] Chain Of Responsibility
 - [] Command
 - [] Iterator
 - [] Mediator
 - [] Memento
-- [x] [Observer](./Assets/Observer/README.md)
+- [x] [观察者模式](./Assets/Observer/README.md)
 - [] State
 - [] Strategy
 - [] Template Method
@@ -90,13 +100,6 @@
 - [x] [享元模式](./Assets/Flyweight/README.md)
 - [] Proxy
 
-
-**创建型模式**
-- [] Factory Method
-- [] Abstract Factory
-- [] Builder
-- [x] [Prototype](./Assets/Prototype/README.md)
-- [] Singleton
 
 ## 致谢
 
