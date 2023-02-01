@@ -25,7 +25,10 @@ I divide design patterns into two categories, they are:
 For the first case.
 **I will first ask one question: **
 
-**If you throw away all the design patterns, how would you achieve a certain function?**
+**If you throw away all the design patterns, how would you achieve a certain requirement?**
+
+
+This requirement will be a specific requirement in the field of game development, rather than a vague concept mentioned in many books or examples.(e.g. Making an order in a restaurant,Clone a animal,Suqare and Circle extend Shape,MyShapeFactory and so on.)
 
 Then I will give the bad code and the good code using the Design Pattern to help readers better understand the Design Pattern.
 
@@ -76,6 +79,15 @@ A link to my blog post, which contains code explanations and detailed ideas.
 
 Examples that have been completed so far are：
 
+
+**Creational Patterns**
+- [x] [Factory Method](./Assets/FactoryMethod/README.md)
+- [] Abstract Factory
+- [] Builder
+- [x] [Prototype](./Assets/Prototype/README.md)
+- [x] [Singleton](./Assets/Singleton/README.md)
+
+
 **Behavioral design patterns**
 - [] Chain Of Responsibility
 - [] Command
@@ -96,14 +108,6 @@ Examples that have been completed so far are：
 - [] Facade
 - [x] [Flyweight](./Assets/Flyweight/README.md)
 - [] Proxy
-
-
-**Creational Patterns**
-- [] Factory Method
-- [] Abstract Factory
-- [] Builder
-- [x] [Prototype](./Assets/Prototype/README.md)
-- [] Singleton
 
 ## Acknowledgements
 
