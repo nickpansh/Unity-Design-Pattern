@@ -2,7 +2,7 @@
  * @Author: NickPansh
  * @Date: 2023-02-01 13:33:36
  * @LastEditors: NickPansh
- * @LastEditTime: 2023-02-01 16:45:44
+ * @LastEditTime: 2023-02-02 09:10:31
  * @FilePath: \Unity-Design-Pattern\Assets\FactoryMethod\Scripts\Utils\Tree.cs
  * @Description: 
  * @
@@ -11,9 +11,12 @@
 using UnityEngine;
 namespace WenQu.FactoryMethod
 {
-    public class Tree : Building
+    public class Tree : Item
     {
+        public void BeChopDown()
+        {
 
+        }
     }
 
     public class TreeFactory : AbstractItemFactory
