@@ -72,11 +72,11 @@
 目前已经完成的例子有：
 
 **创建型模式**
-- [x] [Factory Method](./Assets/FactoryMethod/README.md)
-- [] Abstract Factory
+- [x] [Factory Method](./Assets/CreationalPatterns/FactoryMethod/README.md)
+- [x] [Abstract Factory](./Assets/CreationalPatterns/AbstractFactory/README.md)
 - [] Builder
-- [x] [原型模式](./Assets/Prototype/README.md)
-- [x] [单例模式](./Assets/Singleton/README.md)
+- [x] [原型模式](./Assets/CreationalPatterns/Prototype/README.md)
+- [x] [单例模式](./Assets/CreationalPatterns/Singleton/README.md)
 
 
 **行为型模式**
@@ -85,7 +85,7 @@
 - [] Iterator
 - [] Mediator
 - [] Memento
-- [x] [观察者模式](./Assets/Observer/README.md)
+- [x] [观察者模式](./Assets/BehavioralPattern/Observer/README.md)
 - [] State
 - [] Strategy
 - [] Template Method
@@ -97,7 +97,7 @@
 - [] Composite
 - [] Decorator
 - [] Facade
-- [x] [享元模式](./Assets/Flyweight/README.md)
+- [x] [享元模式](./Assets/StructuralPattern/Flyweight/README.md)
 - [] Proxy
 
 

@@ -81,11 +81,11 @@ Examples that have been completed so far are：
 
 
 **Creational Patterns**
-- [x] [Factory Method](./Assets/FactoryMethod/README.md)
-- [] Abstract Factory
+- [x] [Factory Method](./Assets/CreationalPatterns/FactoryMethod/README.md)
+- [x] [Abstract Factory](./Assets/CreationalPatterns/AbstractFactory/README.md)
 - [] Builder
-- [x] [Prototype](./Assets/Prototype/README.md)
-- [x] [Singleton](./Assets/Singleton/README.md)
+- [x] [Prototype](./Assets/CreationalPatterns/Prototype/README.md)
+- [x] [Singleton](./Assets/CreationalPatterns/Singleton/README.md)
 
 
 **Behavioral design patterns**
@@ -94,7 +94,7 @@ Examples that have been completed so far are：
 - [] Iterator
 - [] Mediator
 - [] Memento
-- [x] [Observer](./Assets/Observer/README.md)
+- [x] [Observer](./Assets/BehavioralPattern/Observer/README.md)
 - [] State
 - [] Strategy
 - [] Template Method
@@ -106,7 +106,7 @@ Examples that have been completed so far are：
 - [] Composite
 - [] Decorator
 - [] Facade
-- [x] [Flyweight](./Assets/Flyweight/README.md)
+- [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
 - [] Proxy
 
 ## Acknowledgements
