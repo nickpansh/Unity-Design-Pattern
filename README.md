@@ -72,8 +72,8 @@
 目前已经完成的例子有：
 
 **创建型模式**
-- [x] [Factory Method](./Assets/CreationalPatterns/FactoryMethod/README.md)
-- [x] [Abstract Factory](./Assets/CreationalPatterns/AbstractFactory/README.md)
+- [x] [工厂方法模式](./Assets/CreationalPatterns/FactoryMethod/README.md)
+- [x] [抽象工厂模式](./Assets/CreationalPatterns/AbstractFactory/README.md)
 - [] Builder
 - [x] [原型模式](./Assets/CreationalPatterns/Prototype/README.md)
 - [x] [单例模式](./Assets/CreationalPatterns/Singleton/README.md)
