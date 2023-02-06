@@ -74,7 +74,7 @@
 **创建型模式**
 - [x] [工厂方法模式](./Assets/CreationalPatterns/FactoryMethod/README.md)
 - [x] [抽象工厂模式](./Assets/CreationalPatterns/AbstractFactory/README.md)
-- [] Builder
+- [x] [建造者模式](./Assets/CreationalPatterns/BuilderPattern/README.md)
 - [x] [原型模式](./Assets/CreationalPatterns/Prototype/README.md)
 - [x] [单例模式](./Assets/CreationalPatterns/Singleton/README.md)
 
