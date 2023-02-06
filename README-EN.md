@@ -83,7 +83,7 @@ Examples that have been completed so far are：
 **Creational Patterns**
 - [x] [Factory Method](./Assets/CreationalPatterns/FactoryMethod/README.md)
 - [x] [Abstract Factory](./Assets/CreationalPatterns/AbstractFactory/README.md)
-- [] Builder
+- [x] [Builder](./Assets/CreationalPatterns/BuilderPattern/README.md)
 - [x] [Prototype](./Assets/CreationalPatterns/Prototype/README.md)
 - [x] [Singleton](./Assets/CreationalPatterns/Singleton/README.md)
 

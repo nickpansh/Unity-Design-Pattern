@@ -233,11 +233,6 @@ public class PickableFactory{
 ```
 
 
-
-
-
-## Conclusion | 结论
-
 ## When to use | 什么时候用
 
 -  **一个系统不应当依赖于产品类实例如何被创建、组合和表达的细节，这对于所有类型的工厂模式都是很重要的**，用户无须关心对象的创建过程，**将对象的创建和使用解耦。**
@@ -248,4 +243,4 @@ public class PickableFactory{
 
 ## Post | 文章
 
-[wenqu.site](https://wenqu.site/Unity%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E2%80%94%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%EF%BC%88%E9%99%84%E4%BB%A3%E7%A0%81%EF%BC%89.html)
+[wenqu.site](https://wenqu.site/Unity%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E2%80%94%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.html)
