@@ -93,6 +93,14 @@ Examples that have been completed so far are：
 - [x] [Prototype](./Assets/CreationalPatterns/Prototype/README.md)
 - [x] [Singleton](./Assets/CreationalPatterns/Singleton/README.md)
 
+**Structural Patterns**
+- [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
+- [] Bridge
+- [] Composite
+- [] Decorator
+- [] Facade
+- [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
+- [] Proxy
 
 **Behavioral design patterns**
 - [] Chain Of Responsibility
@@ -106,14 +114,7 @@ Examples that have been completed so far are：
 - [] Template Method
 - [] Visitor
 
-**Structural Patterns**
-- [] Adapter
-- [] Bridge
-- [] Composite
-- [] Decorator
-- [] Facade
-- [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
-- [] Proxy
+
 
 ## Acknowledgements
 
