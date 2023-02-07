@@ -4,6 +4,10 @@
 
 This repository is a collection of Design Patterns in Unity,written in C#.
 
+Inclues:
+- 23 Game of Four Patterns
+- 《Game Programming Patterns》 in Unity
+
 Design patterns are great.Many design patterns are subtle just by looking at them,but for some people (at least me as a beginner), the biggest problems are:
 
 
@@ -13,22 +17,24 @@ Design patterns are great.Many design patterns are subtle just by looking at the
 
 - I should have used most of them, but I'd like to see how other people (especially the source code of some good projects) use it.
 
-So **I try to explain design patterns in a new form**:
+So **I try to learn and explain design patterns in a new form**:
 
 I divide design patterns into two categories, they are:
 
-1. Some design patterns that are not so widely used, you should have heard their names, but it's likely that you don't know when and how to use it.()
+1. Some design patterns that are not so widely used, you should have heard their names, but it's likely that you don't know when and how to use it.
 
 2. Some design patterns that you may have used and are widely used, you should have used them.You want to take a deeper look at where the Unity engine uses this design pattern.(e.g. Singleton,Prototype,etc.)
 
 
 For the first case.
-**I will first ask one question: **
+I will first ask one question: 
 
 **If you throw away all the design patterns, how would you achieve a certain requirement?**
 
 
-This requirement will be a specific requirement in the field of game development, rather than a vague concept mentioned in many books or examples.(e.g. Making an order in a restaurant,Clone a animal,Suqare and Circle extend Shape,MyShapeFactory and so on.)
+**This requirement will be a specific requirement in the field of game development, rather than a vague concept mentioned in many books or examples.**
+
+**This is really important.I'm fed up with vague examples** of Making an order in a restaurant,Clone a animal,Suqare and Circle extend Shape,MyShapeFactory and so on.Why can't they be an example in the field of game development.
 
 Then I will give the bad code and the good code using the Design Pattern to help readers better understand the Design Pattern.
 
@@ -87,6 +93,14 @@ Examples that have been completed so far are：
 - [x] [Prototype](./Assets/CreationalPatterns/Prototype/README.md)
 - [x] [Singleton](./Assets/CreationalPatterns/Singleton/README.md)
 
+**Structural Patterns**
+- [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
+- [] Bridge
+- [] Composite
+- [] Decorator
+- [] Facade
+- [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
+- [] Proxy
 
 **Behavioral design patterns**
 - [] Chain Of Responsibility
@@ -100,19 +114,13 @@ Examples that have been completed so far are：
 - [] Template Method
 - [] Visitor
 
-**Structural Patterns**
-- [] Adapter
-- [] Bridge
-- [] Composite
-- [] Decorator
-- [] Facade
-- [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
-- [] Proxy
+
 
 ## Acknowledgements
 
 The code in Unity-Design-Pattern references part of the source code of:
-- ⭐[Habrador/Unity-Programming-Patterns](https://github.com/Habrador/Unity-Programming-Patterns)
+- [Habrador/Unity-Programming-Patterns](https://github.com/Habrador/Unity-Programming-Patterns)
+- [QianMo/Unity-Design-Pattern](https://github.com/QianMo/Unity-Design-Pattern)
 
 A heartfelt thank you to them!
 

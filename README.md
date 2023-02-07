@@ -4,13 +4,16 @@
 
 这个仓库是在Unity3D中实现设计模式的合集，使用C#编写。
 
+- 包含GOF的23种设计模式
+- 包含《游戏编程模式》的Unity实现
+
 设计模式非常棒。许多的设计模式单单是看起来就很精妙，但对于部分人（起码对于初学时地我）而言，最大的困扰是：
 
 - 我不知道设计模式的用途是什么以及什么时候使用它。
 - 我曾今都学过他们，但工作后我基本都忘掉了。
 - 我应该都使用过，但我想看看别人（尤其是一些好的项目的源代码）是如何使用它的。
 
-所以**我尝试用一个全新的形式来讲解设计模式**：
+所以**我尝试用一个全新的形式来学习和解释设计模式**：
 
 我把设计模式分为两类，他们分别是：
 
@@ -23,9 +26,11 @@
 
 **如果抛开所有的设计模式，你会如何实现某一个功能？**
 
-这个需求会是游戏开发领域内的具体的需求，而非是很多书或者示例里提的空泛的概念（如在餐厅里点单，复制一个动物,Square和Cirle继承Shape,MyShapeFactory等)。
+**这个需求会是游戏开发领域内的具体的需求，而非是很多书或者示例里提的空泛的概念**
 
-然后我会给出坏代码和使用了设计模式的好代码，来帮助读者来更好地理解设计模式。
+**这非常重要，我受够了各种在餐厅里点单，复制一个动物,Square和Cirle继承Shape,MyShapeFactory等的例子。他们为什么就不能是一个游戏领域内的例子呢？**
+
+然后我会给出坏代码和使用了设计模式的好代码，来帮助更好地理解设计模式。
 
 希望这种形式能帮助你更好地理解设计模式。
 
@@ -72,14 +77,25 @@
 目前已经完成的例子有：
 
 **创建型模式**
+
 - [x] [工厂方法模式](./Assets/CreationalPatterns/FactoryMethod/README.md)
 - [x] [抽象工厂模式](./Assets/CreationalPatterns/AbstractFactory/README.md)
 - [x] [建造者模式](./Assets/CreationalPatterns/BuilderPattern/README.md)
 - [x] [原型模式](./Assets/CreationalPatterns/Prototype/README.md)
 - [x] [单例模式](./Assets/CreationalPatterns/Singleton/README.md)
 
+**结构型模式**
+
+- [x] [适配器模式](./Assets/StructuralPattern/AdapterPattern/README.md)
+- [] Bridge
+- [] Composite
+- [] Decorator
+- [] Facade
+- [x] [享元模式](./Assets/StructuralPattern/Flyweight/README.md)
+- [] Proxy
 
 **行为型模式**
+
 - [] Chain Of Responsibility
 - [] Command
 - [] Iterator
@@ -91,21 +107,13 @@
 - [] Template Method
 - [] Visitor
 
-**结构型模式**
-- [] Adapter
-- [] Bridge
-- [] Composite
-- [] Decorator
-- [] Facade
-- [x] [享元模式](./Assets/StructuralPattern/Flyweight/README.md)
-- [] Proxy
 
 
 ## 致谢
 
 本项目参考了以下项目的部分代码：
-- ⭐[Habrador/Unity-Programming-Patterns](https://github.com/Habrador/Unity-Programming-Patterns)
-
+- [Habrador/Unity-Programming-Patterns](https://github.com/Habrador/Unity-Programming-Patterns)
+- [QianMo/Unity-Design-Pattern](https://github.com/QianMo/Unity-Design-Pattern)
 向他们表示衷心的感谢！
 
 ## 参考资料与了解更多
