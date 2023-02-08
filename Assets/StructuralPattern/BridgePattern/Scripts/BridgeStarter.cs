@@ -2,7 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace WenQu.Adapter
+
+namespace WenQu.BridgePattern
 {
     public class MyLogHandler : ILogHandler
     {
@@ -19,10 +20,30 @@ namespace WenQu.Adapter
         }
     }
 
-    public class AdapterStarter : MonoBehaviour
+    public class BridgeStarter : MonoBehaviour
     {
-        void Start()
+
+        private void Awake()
         {
+
+            // 调用自己实现的Bridge
+            Elf flyElf = new Elf();
+            flyElf.movable = new Flyable();
+            flyElf.NavTo(new Vector3(10, 5, 10));
+
+            Npc flyNpc = new Npc();
+            flyNpc.movable = new Flyable();
+            flyNpc.NavTo(new Vector3(10, 5, 10));
+
+            Elf walkElf = new Elf();
+            walkElf.movable = new Walkable();
+            walkElf.NavTo(new Vector3(10, 0, 10));
+
+            Npc walkNpc = new Npc();
+            walkNpc.movable = new Walkable();
+            walkNpc.NavTo(new Vector3(10, 0, 10));
+
+            // 自定义Log
             Debug.Log("Before Custom Log...");
             Debug.Log("TestLog");
             Debug.LogWarning("TestWarning");
@@ -34,8 +55,8 @@ namespace WenQu.Adapter
             Debug.LogWarning("TestWarning");
             Debug.LogError("TestError");
             Debug.LogException(new Exception("TestException"));
-        }
 
+        }
 
     }
 }

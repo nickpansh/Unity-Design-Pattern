@@ -13,7 +13,7 @@
 - 我曾今都学过他们，但工作后我基本都忘掉了。
 - 我应该都使用过，但我想看看别人（尤其是一些好的项目的源代码）是如何使用它的。
 
-所以**我尝试用一个全新的形式来学习和解释设计模式**：
+所以**我尝试用一个不一样的形式来学习和解释设计模式**：
 
 我把设计模式分为两类，他们分别是：
 
@@ -87,7 +87,7 @@
 **结构型模式**
 
 - [x] [适配器模式](./Assets/StructuralPattern/AdapterPattern/README.md)
-- [] Bridge
+- [x] [桥接模式](./Assets/StructuralPattern/BridgePattern/README.md)
 - [] Composite
 - [] Decorator
 - [] Facade

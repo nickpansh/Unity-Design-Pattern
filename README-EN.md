@@ -17,7 +17,7 @@ Design patterns are great.Many design patterns are subtle just by looking at the
 
 - I should have used most of them, but I'd like to see how other people (especially the source code of some good projects) use it.
 
-So **I try to learn and explain design patterns in a new form**:
+So **I try to learn and explain design patterns in a different form**:
 
 I divide design patterns into two categories, they are:
 
@@ -95,7 +95,7 @@ Examples that have been completed so far are：
 
 **Structural Patterns**
 - [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
-- [] Bridge
+- [x] [Bridge](./Assets/StructuralPattern/BridgePattern/README.md)
 - [] Composite
 - [] Decorator
 - [] Facade
