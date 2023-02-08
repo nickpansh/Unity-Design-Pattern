@@ -1,16 +1,3 @@
----
-title: Unity设计模式—工厂方法模式
-date: 2023-02-1 20:30:45
-categories:
-- 优雅代码
-- 设计模式
-tags:
-- 设计模式
-- Unity
----
-
-<meta name="referrer" content="no-referrer"/>
-
 # Unity设计模式—工厂方法模式
 
 ### Brief | 概要
