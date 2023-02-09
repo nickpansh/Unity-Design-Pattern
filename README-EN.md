@@ -1,6 +1,6 @@
 # Design Pattern in Unity3D
 
-[中文](README.md)
+
 
 This repository is a collection of Design Patterns in Unity,written in C#.
 
@@ -8,37 +8,53 @@ Inclues:
 - 23 Game of Four Patterns
 - 《Game Programming Patterns》 in Unity
 
+[中文](README.md)
+
+### Background
+
 Design patterns are great.Many design patterns are subtle just by looking at them,but for some people (at least me as a beginner), the biggest problems are:
 
 
-- I don't know what the design pattern is for and when to use it although I understand its definition.
+- I don't know what the design pattern is for
+
+- I don't know when to use it although I understand its definition
+
+- I can understand all the examples,But I don't know how to use them in game development
 
 - I used to learn them all, but I basically forgot about them after work.
 
 - I should have used most of them, but I'd like to see how other people (especially the source code of some good projects) use it.
 
+  
+
 So **I try to learn and explain design patterns in a different form**:
 
 I divide design patterns into two categories, they are:
 
-1. Some design patterns that are not so widely used, you should have heard their names, but it's likely that you don't know when and how to use it.
+- Some design patterns that are not so widely used
+  - I will focus on how to **use it in the field of real game development**.I will propose a requirement and solve it by using the design pattern.
 
-2. Some design patterns that you may have used and are widely used, you should have used them.You want to take a deeper look at where the Unity engine uses this design pattern.(e.g. Singleton,Prototype,etc.)
+- Some design patterns that so widely used(or language supported)
+  - I will focus on how the Unity engine uses these design pattern.(e.g. Singleton,Prototype,etc.)
+  
+    
 
-
-For the first case.
-I will first ask one question: 
+Specifically,For the first case,I will first ask one question: 
 
 **If you throw away all the design patterns, how would you achieve a certain requirement?**
 
 
-**This requirement will be a specific requirement in the field of game development, rather than a vague concept mentioned in many books or examples.**
+This requirement will be a **specific requirement in the field of game development**, rather than a vague concept mentioned in many books or examples.
 
-**This is really important.I'm fed up with vague examples** of Making an order in a restaurant,Clone a animal,Suqare and Circle extend Shape,MyShapeFactory and so on.Why can't they be an example in the field of game development.
+**This is really important.I'm fed up with vague examples** of Making an order in a restaurant,Clone a animal,Suqare and Circle extend Shape,MyShapeFactory and so on.
+
+Why can't they be an example in the field of game development?
 
 Then I will give the bad code and the good code using the Design Pattern to help readers better understand the Design Pattern.
 
 **Hope this form helps you understand Design Patterns better.**
+
+
 
 For the second case.
 
@@ -51,37 +67,39 @@ It is recommended to read it together with a book listed in the Reference, and t
 
 Hope this works for you!
 
+
+
 ---
 
-## What does each part consist of?
 
-### Brief
+
+### What does each part consist of?
+
+##### Brief
 
 Basic introduction of the Design Pattern.
 
-### The Question
+##### The Question
 
 What is the requirement? (I will try to make this closer to the real requirement)
 
-### Bad Code Example
+##### Bad Code Example
 
 Putting aside the perception of patterns in your mind, Think about how you would design?
 And a bad code example.
 
-### Good Code Example
+##### Good Code Example
 
 Code example using the design pattern.
 
-### (Conditional) Let's see the source code
+##### (Conditional) Let's see the source code
 
 the code from [UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)
 
-### Post
-
-A link to my blog post, which contains code explanations and detailed ideas.
-
 ---
-## Content
+
+
+## Catalogue
 
 Examples that have been completed so far are：
 
@@ -96,7 +114,7 @@ Examples that have been completed so far are：
 **Structural Patterns**
 - [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
 - [x] [Bridge](./Assets/StructuralPattern/BridgePattern/README.md)
-- [] Composite
+- [x] [Composite](./Assets/StructuralPattern/CompositePattern/README.md)
 - [] Decorator
 - [] Facade
 - [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
@@ -124,6 +142,8 @@ The code in Unity-Design-Pattern references part of the source code of:
 
 A heartfelt thank you to them!
 
+
+
 ## References and Read More
 
 - [Game Programming Patterns](http://gameprogrammingpatterns.com/)
@@ -139,6 +159,8 @@ A heartfelt thank you to them!
 - [UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)
 
 - [.NET Framework](https://referencesource.microsoft.com/)
+
+  
 ## License
 
 Unity-Design-Pattern is avaiable under the [MIT license](https://opensource.org/licenses/MIT).
