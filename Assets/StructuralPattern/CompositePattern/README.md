@@ -71,6 +71,43 @@ public void Sell(Component com){
 ![组合模式例子.drawio](https://wenqu.space/uploads/2023/02/09/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F%E4%BE%8B%E5%AD%90.drawio.png)
 
 
+实际上体现了面向接口编程的思想。
+
+```c#
+public interface IComponent
+{
+    public void Add(IComponent c);
+    public void Remove(IComponent c);
+    public IComponent GetChild(int i);
+
+}
+```
+
+```c#
+ public interface ITradable : IComponent
+ {
+     public float GetPrice();
+     public void Sell();
+     public void QuickHarvest();
+ }
+```
+
+调用代码
+
+```c#
+ITradable wheat1 = new Wheat(100);
+ITradable fruit1 = new Fruit(150);
+ITradable flower1 = new Flower(200);
+Debug.Log($"wheat1 's price = {wheat1.GetPrice()}");
+Debug.Log($"fruit1 's price = {fruit1.GetPrice()}");
+Debug.Log($"flower1 's price = {flower1.GetPrice()}");
+
+ITradable farm1 = new Farm();
+farm1.Add(wheat1);
+farm1.Add(fruit1);
+farm1.Add(flower1);
+Debug.Log($"farm1 's price = {farm1.GetPrice()}");
+```
 
 
 
