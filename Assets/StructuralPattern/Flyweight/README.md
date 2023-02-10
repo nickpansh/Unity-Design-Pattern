@@ -2,8 +2,8 @@
  * @Author: NickPansh
  * @Date: 2023-01-31 13:27:56
  * @LastEditors: NickPansh
- * @LastEditTime: 2023-01-31 16:29:35
- * @FilePath: \Unity-Design-Pattern\Assets\Flyweight\README.md
+ * @LastEditTime: 2023-02-10 12:05:25
+ * @FilePath: \Unity-Design-Pattern\Assets\StructuralPattern\Flyweight\README.md
  * @Description: 
  * 
  * Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
@@ -55,8 +55,9 @@ See More:[Refactoring.Guru](https://refactoring.guru/design-patterns/flyweight)
 
 用享元模式:
 ![](https://wenqu.space/uploads/2023/01/31/20230131114910.png)
-## Post
 
-[博客详解](https://wenqu.site/Unity%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E2%80%94%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F%EF%BC%88%E9%99%84%E4%BB%A3%E7%A0%81%EF%BC%89.html)
+## 其他设计模式
+
+[专题 | Unity3D中的设计模式 | 问渠 (wenqu.site)](https://wenqu.site/Unity-Design-Pattern.html)
 
 ---
