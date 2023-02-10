@@ -127,7 +127,7 @@ public class ConductDelete : MonoBehaviour
 
 BlockDecorator类是装饰者模式里的Decorator，它负责抽象。
 
-最后我们的Block就是装饰者模式李的ConcreteDecorator，它负责实现。
+最后我们的Block就是装饰者模式里的ConcreteDecorator，它负责实现。
 
 ![装饰模式-demo.drawio](https://wenqu.space/uploads/2023/02/10/%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F-demo.drawio.png)
 
@@ -200,11 +200,6 @@ Block的代码也会很庞大。
 -  如果你希望在无需修改代码的情况下即可使用对象， 且希望在运行时为对象新增额外的行为， 可以使用装饰模式。
 - 如果用继承来扩展对象行为的方案难以实现或者根本不可行， 你可以使用该模式。
 
-
-
-## 源码
-
-完整代码已上传至[nickpansh/Unity-Design-Pattern | GitHub](https://github.com/nickpansh/Unity-Design-Pattern)
 
 ## 其他设计模式
 
