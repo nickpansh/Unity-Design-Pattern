@@ -104,8 +104,7 @@ public static Object Instantiate (Object original);
 对于数据类型是引用类型的成员变量，那么浅拷贝会进行引用传递。
 
 ![](https://wenqu.space/uploads/2023/01/31/20230131184358.png)
-## Post
 
-I also post the article here:[wenqu.site](https://wenqu.site/Unity%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E2%80%94%E2%80%94%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F.html)
+## 其他设计模式
 
-
+[专题 | Unity3D中的设计模式 | 问渠 (wenqu.site)](https://wenqu.site/Unity-Design-Pattern.html)

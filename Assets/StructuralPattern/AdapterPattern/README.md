@@ -74,6 +74,6 @@ enemies.Add(adapter);
 
 - 购买了一些第三方类库或者插件，但是没有源码/是类库的命名规范和自己的很不一致/有很多怪异接口，这时候就可以用适配器模式包装一下，作为这些接口的转换器。
 
-## Post | 文章
+## 其他设计模式
 
-[wenqu.site](https://wenqu.site/Unity%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E2%80%94%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.html)
+[专题 | Unity3D中的设计模式 | 问渠 (wenqu.site)](https://wenqu.site/Unity-Design-Pattern.html)

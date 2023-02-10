@@ -27,7 +27,7 @@
 
 - 我曾经都学过，但工作后用的很少，记不清了
 
-- 虽然我都了解过，但我想看看别人（尤其是一些好的项目的源代码）是如何使用它的
+- 道理我都懂，就是不知道成熟商业项目是怎么使用它的
 
   
 
@@ -36,11 +36,12 @@
 我会把设计模式分为两类：
 
 - 使用不那么广泛的设计模式。
-  - 我会关注**如何在实际的游戏开发场景里使用他们**，给出需求，并实现需求。
+
+  我会关注**如何在实际的游戏开发场景里使用他们**，给出需求，并实现需求。
 
 - 非常常用的设计模式（或者是语言层面就支持的）。
 
-  - 我会关注Unity引擎在哪些地方用了这个设计模式。（如单例，原型等）
+  我会关注Unity引擎在哪些地方用了这个设计模式。（如单例，原型等）
 
     
 
@@ -119,7 +120,7 @@
 - [x] [适配器模式](./Assets/StructuralPattern/AdapterPattern/README.md)
 - [x] [桥接模式](./Assets/StructuralPattern/BridgePattern/README.md)
 - [x] [组合模式](./Assets/StructuralPattern/CompositePattern/README.md)
-- [] Decorator
+- [x] [装饰模式](./Assets/StructuralPattern/DecoratorPattern/README.md)
 - [] Facade
 - [x] [享元模式](./Assets/StructuralPattern/Flyweight/README.md)
 - [] Proxy

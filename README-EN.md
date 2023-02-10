@@ -32,10 +32,12 @@ So **I try to learn and explain design patterns in a different form**:
 I divide design patterns into two categories, they are:
 
 - Some design patterns that are not so widely used
-  - I will focus on how to **use it in the field of real game development**.I will propose a requirement and solve it by using the design pattern.
+  
+  I will focus on how to **use it in the field of real game development**.I will propose a requirement and solve it by using the design pattern.
 
 - Some design patterns that so widely used(or language supported)
-  - I will focus on how the Unity engine uses these design pattern.(e.g. Singleton,Prototype,etc.)
+
+  I will focus on how the Unity engine uses these design pattern.(e.g. Singleton,Prototype,etc.)
   
     
 
@@ -115,7 +117,7 @@ Examples that have been completed so far are：
 - [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
 - [x] [Bridge](./Assets/StructuralPattern/BridgePattern/README.md)
 - [x] [Composite](./Assets/StructuralPattern/CompositePattern/README.md)
-- [] Decorator
+- [x] [Decorator](./Assets/StructuralPattern/DecoratorPattern/README.md)
 - [] Facade
 - [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
 - [] Proxy

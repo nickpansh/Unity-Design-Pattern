@@ -2,8 +2,8 @@
  * @Author: NickPansh
  * @Date: 2023-02-09 18:38:47
  * @LastEditors: NickPansh
- * @LastEditTime: 2023-02-09 18:42:58
- * @FilePath: \Unity-Design-Pattern\Assets\StructuralPattern\CompositePattern\Example\Farm.cs
+ * @LastEditTime: 2023-02-10 10:23:04
+ * @FilePath: \Unity-Design-Pattern\Assets\StructuralPattern\CompositePattern\Scripts\Example\Farm.cs
  * @Description: 
  * @
  * @Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
@@ -31,7 +31,7 @@ namespace WenQu.CompositePattern
 
         public IComponent GetChild(int i)
         {
-            return (IComponent)crops.ToArray()[i];
+            return (IComponent)crops[i];
         }
 
         public float GetPrice()

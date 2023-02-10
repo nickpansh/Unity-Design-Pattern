@@ -157,7 +157,6 @@ Building building3 = (Building)buildingFactory.Create(buildingPrefab, "bu_1003")
 - 如果你希望复用现有对象来节省系统资源， 而不是每次都重新创建对象， 可使用工厂方法。
 
 
-### Post | 文章
+## 其他设计模式
 
-For more detail, see: [wenqu.site](https://wenqu.site/Unity%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E2%80%94%E2%80%94%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.html)
-
+[专题 | Unity3D中的设计模式 | 问渠 (wenqu.site)](https://wenqu.site/Unity-Design-Pattern.html)
