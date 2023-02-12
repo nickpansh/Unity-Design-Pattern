@@ -121,7 +121,7 @@
 - [x] [桥接模式](./Assets/StructuralPattern/BridgePattern/README.md)
 - [x] [组合模式](./Assets/StructuralPattern/CompositePattern/README.md)
 - [x] [装饰模式](./Assets/StructuralPattern/DecoratorPattern/README.md)
-- [x] [Facade](./Assets/StructuralPattern/FacadePattern/README.md)
+- [x] [外观模式](./Assets/StructuralPattern/FacadePattern/README.md)
 - [x] [享元模式](./Assets/StructuralPattern/Flyweight/README.md)
 - [] Proxy
 
