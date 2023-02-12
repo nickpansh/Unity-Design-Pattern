@@ -1,6 +1,6 @@
 # Unity设计模式——原型模式
 
-![](https://wenqu.space/other/design-pattern/prototype.png)
+![](https://pic.wenqu.site/other/design-pattern/prototype.png)
 
 ## Brief
 
@@ -103,7 +103,7 @@ public static Object Instantiate (Object original);
 对于对象语句类型是基本数据类型的成员变量，浅拷贝会直接进行值传递，也就是将该属性值直接复制一份给新对象。
 对于数据类型是引用类型的成员变量，那么浅拷贝会进行引用传递。
 
-![](https://wenqu.space/uploads/2023/01/31/20230131184358.png)
+![](https://pic.wenqu.site/uploads/2023/01/31/20230131184358.png)
 
 ## 其他设计模式
 

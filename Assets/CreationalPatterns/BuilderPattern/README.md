@@ -2,7 +2,7 @@
 
 > **建造者模式**是一种创建型设计模式， 使你能够分步骤创建复杂对象。 该模式允许你使用相同的创建代码生成不同类型和形式的对象。
 
-![](https://wenqu.space/other/design-pattern/builder.png)
+![](https://pic.wenqu.site/other/design-pattern/builder.png)
 
 建造者模式关注如何逐步创建一个复杂的对象，可以分步骤生成对象， 而且允许你仅使用必须的步骤。 应用该模式后， 你再也不需要将几十个参数塞进构造函数里啦。
 
@@ -278,7 +278,7 @@ Pet pet = (Pet)petBuilder.ConstructFull();
 
 ### Structure | 模式结构
 
-![](https://wenqu.space/uploads/2023/02/06/20230206170901.png)
+![](https://pic.wenqu.site/uploads/2023/02/06/20230206170901.png)
 
 
 

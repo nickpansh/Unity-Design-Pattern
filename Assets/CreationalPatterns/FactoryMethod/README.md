@@ -4,7 +4,7 @@
 
 > **工厂方法模式**是简单工厂模式的延伸，它保留了简单工厂模式优点点，同时还弥补了简单工厂的缺陷：能更好地符合开闭原则要求，在增加新的具体产品对象时无需对已有系统做任何修改。
 
-![](https://wenqu.space/uploads/2023/02/01/factorymethod.png)
+![](https://pic.wenqu.site/uploads/2023/02/01/factorymethod.png)
 
 这里简单介绍下工厂方法模式和工厂模式的区别：
 
@@ -12,7 +12,7 @@
 
 <!-- more -->
 
-![factoryVSfactoryMethod_cn](https://wenqu.space/uploads/2023/02/01/factoryVSfactoryMethod_cn.png)
+![factoryVSfactoryMethod_cn](https://pic.wenqu.site/uploads/2023/02/01/factoryVSfactoryMethod_cn.png)
 
 
 具体不展开，本篇主旨是在Unity中 实现与演示命令模式，有关工厂方法模式的详细介绍可以看:
