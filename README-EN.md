@@ -12,93 +12,39 @@ Inclues:
 
 ### Background
 
-Design patterns are great.Many design patterns are subtle just by looking at them,but for some people (at least me as a beginner), the biggest problems are:
+The beauty of design patterns is that they are a set of proven and practiced general solutions that can help software engineers improve the quality of their code and simplify the complexity of software development.
+
+But the controversy about design patterns in recent years has also been endless.
+
+The main reason is that the concept of design patterns has been proposed for nearly thirty years. With the development of modern software engineering, some situation has changed:
+
+- With the development of software engineering, the business split is finer, and the framework and business are often completely disassembled. Some reusable software has migrated to the underlying system/language as toolkits or frameworks—and mostly should be left to the experts.
+
+- Some design patterns are already integrated by languages ​​or frameworks. It is more convenient to use these language support for developers who use them.
+
+- GOF did not sort the design patterns according to the frequency of use, which led to some misunderstandings.
+
+But no matter what level of programmers, what type of code development, as long as we pursue code reusability, we need to practice the internal strength of design patterns.
+
+I'm trying to illustrate **Design Patterns** in the field of Unity3D game development, Includes:
+
+- According to my understanding, sort the design patterns in game development by **importance**.
+- In addition to 23 design patterns, **introduce the game design patterns from "Game Programming Patterns"**.
+- For each design pattern, **ideas and examples of using it in game development are provided**, focusing on game development, with the purpose of deepening understanding and avoiding generalizations.
+- For those patterns already supported by C#/.Net Frameworks/Unity3D, use ready-made solutions directly. **Talk about the understanding of design patterns through the source code in [UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)**.
 
 
-- I don't know what the design pattern is for
+### For whom
 
-- I don't know when to use it although I understand its definition
+- Engineers who have a basic understanding of Unity game development and want to **improve code quality**.
+- Engineers who have a basic understanding of Unity game development and design patterns and want to **review design patterns**.
+- junior programmers who are interested in game development and ready to **dive deep** in this field.
+- Engineers who don't know anything about Unity3D game development, but are interested in design patterns and want to find **design-patterns examples in game development**.
 
-- I can understand all the examples,But I don't know how to use them in game development
+### Not for whom
 
-- I used to learn them all, but I basically forgot about them after work.
-
-- I should have used most of them, but I'd like to see how other people (especially the source code of some good projects) use it.
-
-  
-
-So **I try to learn and explain design patterns in a different form**:
-
-I divide design patterns into two categories, they are:
-
-- Some design patterns that are not so widely used
-  
-  I will focus on how to **use it in the field of real game development**.I will propose a requirement and solve it by using the design pattern.
-
-- Some design patterns that so widely used(or language supported)
-
-  I will focus on how the Unity engine uses these design pattern.(e.g. Singleton,Prototype,etc.)
-  
-    
-
-Specifically,For the first case,I will first ask one question: 
-
-**If you throw away all the design patterns, how would you achieve a certain requirement?**
-
-
-This requirement will be a **specific requirement in the field of game development**, rather than a vague concept mentioned in many books or examples.
-
-**This is really important.I'm fed up with vague examples** of Making an order in a restaurant,Clone a animal,Suqare and Circle extend Shape,MyShapeFactory and so on.
-
-Why can't they be an example in the field of game development?
-
-Then I will give the bad code and the good code using the Design Pattern to help readers better understand the Design Pattern.
-
-**Hope this form helps you understand Design Patterns better.**
-
-
-
-For the second case.
-
-**I will focus on how to use it in Unity and How unity [UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)(C# part of the Unity engine code) use it.**
-
-
-I will try to make this example as practical as possible.
-
-It is recommended to read it together with a book listed in the Reference, and then write the code yourself.
-
-Hope this works for you!
-
-
-
----
-
-
-
-### What does each part consist of?
-
-##### Brief
-
-Basic introduction of the Design Pattern.
-
-##### The Question
-
-What is the requirement? (I will try to make this closer to the real requirement)
-
-##### Bad Code Example
-
-Putting aside the perception of patterns in your mind, Think about how you would design?
-And a bad code example.
-
-##### Good Code Example
-
-Code example using the design pattern.
-
-##### (Conditional) Let's see the source code
-
-the code from [UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)
-
----
+- People who don't understand Unity development at all, and have never heard of design patterns. (It is recommended to learn Unity development and design patterns separately)
+- Engineers who feel that design patterns are useless and enjoy shit code.
 
 
 ## Catalogue
@@ -107,20 +53,32 @@ Examples that have been completed so far are：
 
 
 **Creational Patterns**
+
+**Core**
+
 - [x] [Factory Method](./Assets/CreationalPatterns/FactoryMethod/README.md)
-- [x] [Abstract Factory](./Assets/CreationalPatterns/AbstractFactory/README.md)
 - [x] [Builder](./Assets/CreationalPatterns/BuilderPattern/README.md)
 - [x] [Prototype](./Assets/CreationalPatterns/Prototype/README.md)
+
+
+**Peripheral**
+
+- [x] [Abstract Factory](./Assets/CreationalPatterns/AbstractFactory/README.md)
 - [x] [Singleton](./Assets/CreationalPatterns/Singleton/README.md)
 
 **Structural Patterns**
-- [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
-- [x] [Bridge](./Assets/StructuralPattern/BridgePattern/README.md)
-- [x] [Composite](./Assets/StructuralPattern/CompositePattern/README.md)
+
+**Core**
 - [x] [Decorator](./Assets/StructuralPattern/DecoratorPattern/README.md)
 - [x] [Facade](./Assets/StructuralPattern/FacadePattern/README.md)
+- [x] [Proxy](./Assets/StructuralPattern/Proxy/README.md)
+- [x] [Composite](./Assets/StructuralPattern/CompositePattern/README.md)
+
+**Peripheral**
+- [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
+- [x] [Bridge](./Assets/StructuralPattern/BridgePattern/README.md)
 - [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
-- [] Proxy
+
 
 **Behavioral design patterns**
 - [] Chain Of Responsibility
@@ -134,7 +92,7 @@ Examples that have been completed so far are：
 - [] Template Method
 - [] Visitor
 
-
+**Visit[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)to see more**
 
 ## Acknowledgements
 
