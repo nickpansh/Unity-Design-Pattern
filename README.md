@@ -1,4 +1,4 @@
-# 在Unity3D中使用设计模式
+# Unity3D游戏开发中的设计模式
 
 
 
@@ -13,94 +13,39 @@
 
 ### 背景
 
+设计模式的精妙之处在于它们是一组经过验证和实践的通用解决方案，可以帮助软件工程师提高代码的质量，并简化软件开发的复杂性。
+
+但这些年关于设计模式的争议也不绝于耳。
+
+最主要的原因是设计模式的概念提出距今有接近三十年了，随着现代软件工程的发展，情况有了些变化：
+
+- 随着软件工程的发展，业务拆分更细了，框架与业务时常被完全拆开。设计模式对于框架开发更重要。
+
+- 一些设计模式已经被语言或者是框架所集成。对于使用它们的开发者而言，使用这些语言支持会更方便。
+
+- GOF提出设计模式时没有按照使用频率排序导致了部分误解的产生。
+
+但不管是对于什么水平的程序员，什么类型的代码开发，只要我们追求代码的可复用性，我们就需要修炼好设计模式的内功。
 
 
-设计模式非常棒。
-
-许多的设计模式单单是看起来就很精妙，但对于部分人（起码对于初学时地我）而言，最大的困扰是：
-
-- 我不知道为什么要使用它
-
-- 我不知道什么时候该使用它尽管我知道它的定义
-
-- 例子我都看得懂，但是在游戏开发中我就不会了
-
-- 我曾经都学过，但工作后用的很少，记不清了
-
-- 道理我都懂，就是不知道成熟商业项目是怎么使用它的
-
-  
-
-所以**我尝试用一个不一样的形式来学习和理解设计模式**：
-
-我会把设计模式分为两类：
-
-- 使用不那么广泛的设计模式。
-
-  我会关注**如何在实际的游戏开发场景里使用他们**，给出需求，并实现需求。
-
-- 非常常用的设计模式（或者是语言层面就支持的）。
-
-  我会关注Unity引擎在哪些地方用了这个设计模式。（如单例，原型等）
-
-    
-
-具体来说：对于第一种情况。
-在介绍设计模式前，我会先抛出一个问题：
-
-**如果抛开所有的设计模式，你会如何实现某一个功能？**
-
-这个需求会是**游戏开发领域内的具体的需求***，而非是很多书或者示例里提的空泛的概念
-
-**这非常重要，我受够了各种在餐厅里点单，复制一个动物,Square和Cirle继承Shape,MyShapeFactory等的例子。**
-
-**他们为什么就不能是一个游戏领域内的例子呢？**
-
-然后我会给出坏代码和使用了设计模式的好代码，来帮助更好地理解设计模式。
-
-希望这种形式能帮助你更好地理解设计模式。
+我试图阐述**Unity3D游戏开发领域的设计模式**，包括：
+- 按照我的理解对游戏开发中的设计模式进行**重要性排序**。
+- 除了23种设计模式外，**引入《游戏编程模式》里的游戏设计模式**。
+- 对于每一种设计模式，都提供**游戏开发中使用它的思路和例子**，聚焦游戏开发，目的是加深理解，避免泛泛而谈。
+- 对于部分语言/框架：C#/.NET/Unity3D 就已经引入的模式，直接用现成的方案。**通过[UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)里的源码来谈对设计模式的理解**。
 
 
+### 适合谁看
 
-对于第二种情况。
+- 对Unity游戏开发有一定了解，想**提升代码质量**的工程师。
+- 对Unity游戏开发和设计模式都有一定了解，想**复习设计模式**的工程师。
+- 对游戏开发感兴趣，并准备在此领域**深挖**的**初级程序员。
+- 对Unity游戏开发完全不了解，但对设计模式感兴趣，想寻找模式**应用例子**的工程师。
 
-**我会着重如何在Unity里使用它[UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)(Unity的C#的部分源码)里是怎么使用它的。**
+### 不适合谁看
 
-建议配合一本参考资料里列出的书一起看，然后再动手自己写一遍代码。
-
-希望这能帮助到你们！
-
-
-
----
-
-### 每个模式的讲解包含哪些内容？
-
-
-
-##### 简介
-
-设计模式的基本介绍。
-
-##### 需求
-
-需求（我会尽量让这个需求更接近于真实需求）是什么？
-
-##### 坏代码
-
-抛开脑子里关于模式的认知，想想你会怎么写？
-以及一个错误的示例。
-
-##### 好代码
-
-使用设计模式实现这个需求的代码示例。
-
-##### (可能会有) 看看UnityEngine怎么做的
-
-[UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)里的源码
-
----
-
+- 完全不了解Unity开发，也没听过设计模式的人。（建议分别学习Unity开发和设计模式）
+- 觉得设计模式没有用，享受屎山的工程师。
 
 
 ### 目录
@@ -109,21 +54,31 @@
 
 **创建型模式**
 
-- [x] [工厂方法模式](./Assets/CreationalPatterns/FactoryMethod/README.md)
-- [x] [抽象工厂模式](./Assets/CreationalPatterns/AbstractFactory/README.md)
+**重要**
+
 - [x] [建造者模式](./Assets/CreationalPatterns/BuilderPattern/README.md)
 - [x] [原型模式](./Assets/CreationalPatterns/Prototype/README.md)
+- [x] [工厂方法模式](./Assets/CreationalPatterns/FactoryMethod/README.md)
+
+**次要**
+
+- [x] [抽象工厂模式](./Assets/CreationalPatterns/AbstractFactory/README.md)
 - [x] [单例模式](./Assets/CreationalPatterns/Singleton/README.md)
 
 **结构型模式**
 
-- [x] [适配器模式](./Assets/StructuralPattern/AdapterPattern/README.md)
-- [x] [桥接模式](./Assets/StructuralPattern/BridgePattern/README.md)
+**重要**
+
+- [x] [代理模式](./Assets/StructuralPattern/Proxy/README.md)
 - [x] [组合模式](./Assets/StructuralPattern/CompositePattern/README.md)
 - [x] [装饰模式](./Assets/StructuralPattern/DecoratorPattern/README.md)
-- [x] [外观模式](./Assets/StructuralPattern/FacadePattern/README.md)
+- [x] [门面模式](./Assets/StructuralPattern/FacadePattern/README.md)
+
+**次要**
+- [x] [适配器模式](./Assets/StructuralPattern/AdapterPattern/README.md)
+- [x] [桥接模式](./Assets/StructuralPattern/BridgePattern/README.md)
 - [x] [享元模式](./Assets/StructuralPattern/Flyweight/README.md)
-- [] Proxy
+
 
 **行为型模式**
 
@@ -147,7 +102,7 @@
 
 - [] Visitor
 
-  
+**访问[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)以查看更多**
 
 ### 致谢
 
@@ -155,6 +110,7 @@
 - [Habrador/Unity-Programming-Patterns](https://github.com/Habrador/Unity-Programming-Patterns)
 
 - [QianMo/Unity-Design-Pattern](https://github.com/QianMo/Unity-Design-Pattern)
+
   向他们表示衷心的感谢！
 
   
