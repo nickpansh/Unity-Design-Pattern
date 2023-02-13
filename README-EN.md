@@ -31,7 +31,7 @@ I'm trying to illustrate **Design Patterns** in the field of Unity3D game develo
 - According to my understanding, sort the design patterns in game development by **importance**.
 - In addition to 23 design patterns, **introduce the game design patterns from "Game Programming Patterns"**.
 - For each design pattern, **ideas and examples of using it in game development are provided**, focusing on game development, with the purpose of deepening understanding and avoiding generalizations.
-- For those patterns already supported by C#/.Net Frameworks/Unity3D, use ready-made solutions directly. **Talk about the understanding of design patterns through the source code in [UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)**.
+- For those patterns wildly used in framework (C#/.Net Frameworks/Unity3D)  , focus on how the framework use the pattern. **Talk about the understanding of design patterns through the source code in [UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)**.
 
 
 ### For whom
@@ -73,11 +73,12 @@ Examples that have been completed so far are：
 - [x] [Facade](./Assets/StructuralPattern/FacadePattern/README.md)
 - [x] [Proxy](./Assets/StructuralPattern/Proxy/README.md)
 - [x] [Composite](./Assets/StructuralPattern/CompositePattern/README.md)
+- [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
 
 **Peripheral**
 - [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
 - [x] [Bridge](./Assets/StructuralPattern/BridgePattern/README.md)
-- [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
+
 
 
 **Behavioral design patterns**
