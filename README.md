@@ -32,7 +32,7 @@
 - 按照我的理解对游戏开发中的设计模式进行**重要性排序**。
 - 除了23种设计模式外，**引入《游戏编程模式》里的游戏设计模式**。
 - 对于每一种设计模式，都提供**游戏开发中使用它的思路和例子**，聚焦游戏开发，目的是加深理解，避免泛泛而谈。
-- 对于部分语言/框架：C#/.NET/Unity3D 就已经引入的模式，直接用现成的方案。**通过[UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)里的源码来谈对设计模式的理解**。
+- 对于部分语言/框架：C#/.NET/Unity3D 框架里用得比较多的模式，关注框架里是怎么使用的。**通过[UnityCSReference](https://github.com/Unity-Technologies/UnityCsReference)里的源码来谈对设计模式的理解**。
 
 
 ### 适合谁看
@@ -52,32 +52,33 @@
 
 目前已经完成的例子有：
 
-**创建型模式**
+- **创建型模式**
 
-**重要**
+  - **重要**
 
-- [x] [建造者模式](./Assets/CreationalPatterns/BuilderPattern/README.md)
-- [x] [原型模式](./Assets/CreationalPatterns/Prototype/README.md)
-- [x] [工厂方法模式](./Assets/CreationalPatterns/FactoryMethod/README.md)
+    - [x] [建造者模式](./Assets/CreationalPatterns/BuilderPattern/README.md)
+    - [x] [原型模式](./Assets/CreationalPatterns/Prototype/README.md)
+    - [x] [工厂方法模式](./Assets/CreationalPatterns/FactoryMethod/README.md)
 
-**次要**
+  - 次要
 
-- [x] [抽象工厂模式](./Assets/CreationalPatterns/AbstractFactory/README.md)
-- [x] [单例模式](./Assets/CreationalPatterns/Singleton/README.md)
+    - [x] [抽象工厂模式](./Assets/CreationalPatterns/AbstractFactory/README.md)
+    - [x] [单例模式](./Assets/CreationalPatterns/Singleton/README.md)
 
-**结构型模式**
+- **结构型模式**
 
-**重要**
+  - **重要**
 
-- [x] [代理模式](./Assets/StructuralPattern/Proxy/README.md)
-- [x] [组合模式](./Assets/StructuralPattern/CompositePattern/README.md)
-- [x] [装饰模式](./Assets/StructuralPattern/DecoratorPattern/README.md)
-- [x] [门面模式](./Assets/StructuralPattern/FacadePattern/README.md)
+    - [x] [代理模式](./Assets/StructuralPattern/Proxy/README.md)
+    - [x] [组合模式](./Assets/StructuralPattern/CompositePattern/README.md)
+    - [x] [装饰模式](./Assets/StructuralPattern/DecoratorPattern/README.md)
+    - [x] [门面模式](./Assets/StructuralPattern/FacadePattern/README.md)
+    - [x] [享元模式](./Assets/StructuralPattern/Flyweight/README.md)
+    
+  - 次要
+    - [x] [适配器模式](./Assets/StructuralPattern/AdapterPattern/README.md)
+    - [x] [桥接模式](./Assets/StructuralPattern/BridgePattern/README.md)
 
-**次要**
-- [x] [适配器模式](./Assets/StructuralPattern/AdapterPattern/README.md)
-- [x] [桥接模式](./Assets/StructuralPattern/BridgePattern/README.md)
-- [x] [享元模式](./Assets/StructuralPattern/Flyweight/README.md)
 
 
 **行为型模式**
