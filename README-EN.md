@@ -83,6 +83,7 @@ Examples that have been completed so far are：
 - **Behavioral design patterns**
 
     - **Core**
+        - [x] **[Command](./Assets/BehavioralPattern/Command/README.md)**
         - [x] **[Iterator](./Assets/BehavioralPattern/Iterator/README.md)**
         - [x] **[Observer](./Assets/BehavioralPattern/Observer/README.md)**
         - [x] **[Mediator](./Assets/BehavioralPattern/Mediator/README.md)**
@@ -91,7 +92,7 @@ Examples that have been completed so far are：
 
         - [x] [Chain Of Responsibility](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
 
-- [] Command
+
 - [] Memento
 - [] State
 - [] Strategy

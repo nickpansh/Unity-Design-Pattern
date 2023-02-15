@@ -2,7 +2,7 @@
  * @Author: NickPansh
  * @Date: 2023-01-31 19:23:12
  * @LastEditors: NickPansh
- * @LastEditTime: 2023-01-31 19:32:54
+ * @LastEditTime: 2023-02-15 18:31:34
  * @FilePath: \Unity-Design-Pattern\Assets\Scripts\DesignPattern\Singleton.cs
  * @Description: Best Practice of Singleton(Demo)
  * @
@@ -14,6 +14,7 @@ namespace WenQu.DesignPattern
 {
     public sealed class Singleton
     {
+        //
         private static readonly Lazy<Singleton> lazy =
             new Lazy<Singleton>(() => new Singleton());
 
@@ -22,5 +23,6 @@ namespace WenQu.DesignPattern
         private Singleton()
         {
         }
+
     }
 }
