@@ -2,8 +2,8 @@
  * @Author: NickPansh
  * @Date: 2023-01-30 14:26:03
  * @LastEditors: NickPansh
- * @LastEditTime: 2023-01-30 18:04:44
- * @FilePath: \Unity-Programming-Patterns\Assets\Patterns\3. Observer\Test\Different events\Subscriber.cs
+ * @LastEditTime: 2023-02-15 09:39:52
+ * @FilePath: \Unity-Design-Pattern\Assets\BehavioralPattern\Observer\DifferentEvents\Subscriber.cs
  * @Description: 
  * @
  * @Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
@@ -39,7 +39,7 @@ namespace WenQu.Observer
             // 这一行也会报错——不允许直接赋值事件
             // 同上
             // publisher_csharp.eventUsingAction = DisplayCallCustomParameters;
-            // 这一行也会报错——不允许直接赋值事件
+            // 这一行也会报错——不允许直接赋值事件   
             // 同上
             // publisher_unity.eventUsingUnityAction = DisplayUnityCallCustomParameters;
 

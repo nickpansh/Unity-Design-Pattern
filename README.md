@@ -56,9 +56,9 @@
 
   - **重要**
 
-    - [x] [建造者模式](./Assets/CreationalPatterns/BuilderPattern/README.md)
-    - [x] [原型模式](./Assets/CreationalPatterns/Prototype/README.md)
-    - [x] [工厂方法模式](./Assets/CreationalPatterns/FactoryMethod/README.md)
+    - [x] **[建造者模式](./Assets/CreationalPatterns/BuilderPattern/README.md)**
+    - [x] **[原型模式](./Assets/CreationalPatterns/Prototype/README.md)**
+    - [x] **[工厂方法模式](./Assets/CreationalPatterns/FactoryMethod/README.md)**
 
   - 次要
 
@@ -69,11 +69,11 @@
 
   - **重要**
 
-    - [x] [代理模式](./Assets/StructuralPattern/Proxy/README.md)
-    - [x] [组合模式](./Assets/StructuralPattern/CompositePattern/README.md)
-    - [x] [装饰模式](./Assets/StructuralPattern/DecoratorPattern/README.md)
-    - [x] [门面模式](./Assets/StructuralPattern/FacadePattern/README.md)
-    - [x] [享元模式](./Assets/StructuralPattern/Flyweight/README.md)
+    - [x] **[代理模式](./Assets/StructuralPattern/Proxy/README.md)**
+    - [x] **[组合模式](./Assets/StructuralPattern/CompositePattern/README.md)**
+    - [x] **[装饰模式](./Assets/StructuralPattern/DecoratorPattern/README.md)**
+    - [x] **[门面模式](./Assets/StructuralPattern/FacadePattern/README.md)**
+    - [x] **[享元模式](./Assets/StructuralPattern/Flyweight/README.md)**
     
   - 次要
     - [x] [适配器模式](./Assets/StructuralPattern/AdapterPattern/README.md)
@@ -83,24 +83,19 @@
 
 **行为型模式**
 
-- [] Chain Of Responsibility
+- **重要**
+  - [x] **[迭代器](./Assets/BehavioralPattern/Iterator/README.md)**
+  - [x] **[观察者模式](./Assets/BehavioralPattern/Observer/README.md)**
 
+- 次要
+
+  - [x] [责任链模式](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
 - [] Command
-
-- [] Iterator
-
 - [] Mediator
-
 - [] Memento
-
-- [x] [观察者模式](./Assets/BehavioralPattern/Observer/README.md)
-
 - [] State
-
 - [] Strategy
-
 - [] Template Method
-
 - [] Visitor
 
 **访问[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)以查看更多**
