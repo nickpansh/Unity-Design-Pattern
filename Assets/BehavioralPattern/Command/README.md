@@ -5,7 +5,6 @@
 ![命令模式](./images/design-pattern/命令模式.jpg)
 
 
-
 更多细节可以查看[命令设计模式 (refactoringguru.cn)](https://refactoringguru.cn/design-patterns/command)
 
 ## 什么时候用
@@ -159,24 +158,8 @@ public class CommandQueue : AbstractCommand
 }
 ```
 
-
-
-### 源代码
-
-完整代码已上传至[nickpansh/Unity-Design-Pattern | GitHub](https://github.com/nickpansh/Unity-Design-Pattern)
-
-
-
 ### 其他设计模式
 
 [专题 | Unity3D游戏开发中的设计模式 | 问渠 (wenqu.site)](https://wenqu.site/Unity-Design-Pattern.html)
 
 
-
-## 参考
-
-[Habrador/Unity-Programming-Patterns: A collection of open source programming patterns in Unity with examples when to use them (github.com)](https://github.com/Habrador/Unity-Programming-Patterns)
-
-[Game Programming Patterns](http://gameprogrammingpatterns.com/)
-
-[Refactoring.Guru](https://refactoringguru.cn/)
