@@ -84,14 +84,15 @@
 - **行为型模式**
 
   - **重要**
+    - [x] **[命令模式](./Assets/BehavioralPattern/Command/README.md)**
     - [x] **[迭代器](./Assets/BehavioralPattern/Iterator/README.md)**
     - [x] **[观察者模式](./Assets/BehavioralPattern/Observer/README.md)**
     - [x] **[中介者模式](./Assets/BehavioralPattern/Mediator/README.md)**
+    
   - 次要
 
     - [] [责任链模式](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
 
-- [] Command
 - [] Memento
 - [] State
 - [] Strategy
