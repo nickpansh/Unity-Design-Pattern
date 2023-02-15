@@ -52,42 +52,47 @@ I'm trying to illustrate **Design Patterns** in the field of Unity3D game develo
 Examples that have been completed so far are：
 
 
-**Creational Patterns**
+- **Creational Patterns**
 
-**Core**
+    - **Core**
 
-- [x] [Factory Method](./Assets/CreationalPatterns/FactoryMethod/README.md)
-- [x] [Builder](./Assets/CreationalPatterns/BuilderPattern/README.md)
-- [x] [Prototype](./Assets/CreationalPatterns/Prototype/README.md)
-
-
-**Peripheral**
-
-- [x] [Abstract Factory](./Assets/CreationalPatterns/AbstractFactory/README.md)
-- [x] [Singleton](./Assets/CreationalPatterns/Singleton/README.md)
-
-**Structural Patterns**
-
-**Core**
-- [x] [Decorator](./Assets/StructuralPattern/DecoratorPattern/README.md)
-- [x] [Facade](./Assets/StructuralPattern/FacadePattern/README.md)
-- [x] [Proxy](./Assets/StructuralPattern/Proxy/README.md)
-- [x] [Composite](./Assets/StructuralPattern/CompositePattern/README.md)
-- [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
-
-**Peripheral**
-- [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
-- [x] [Bridge](./Assets/StructuralPattern/BridgePattern/README.md)
+        - [x] [Factory Method](./Assets/CreationalPatterns/FactoryMethod/README.md)
+        - [x] [Builder](./Assets/CreationalPatterns/BuilderPattern/README.md)
+        - [x] [Prototype](./Assets/CreationalPatterns/Prototype/README.md)
 
 
+    - Peripheral
 
-**Behavioral design patterns**
-- [] Chain Of Responsibility
+        - [x] [Abstract Factory](./Assets/CreationalPatterns/AbstractFactory/README.md)
+        - [x] [Singleton](./Assets/CreationalPatterns/Singleton/README.md)
+
+- **Structural Patterns**
+    - **Core**
+        - [x] [Decorator](./Assets/StructuralPattern/DecoratorPattern/README.md)
+        - [x] [Facade](./Assets/StructuralPattern/FacadePattern/README.md)
+        - [x] [Proxy](./Assets/StructuralPattern/Proxy/README.md)
+        - [x] [Composite](./Assets/StructuralPattern/CompositePattern/README.md)
+        - [x] [Flyweight](./Assets/StructuralPattern/Flyweight/README.md)
+
+    - Peripheral
+        - [x] [Adapter](./Assets/StructuralPattern/AdapterPattern/README.md)
+        - [x] [Bridge](./Assets/StructuralPattern/BridgePattern/README.md)
+
+
+
+- **Behavioral design patterns**
+
+    - **Core**
+        - [x] **[Iterator](./Assets/BehavioralPattern/Iterator/README.md)**
+        - [x] **[Observer](./Assets/BehavioralPattern/Observer/README.md)**
+        - [x] **[Mediator](./Assets/BehavioralPattern/Mediator/README.md)**
+
+    - Peripheral
+
+        - [x] [Chain Of Responsibility](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
+
 - [] Command
-- [] Iterator
-- [] Mediator
 - [] Memento
-- [x] [Observer](./Assets/BehavioralPattern/Observer/README.md)
 - [] State
 - [] Strategy
 - [] Template Method
