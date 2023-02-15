@@ -22,6 +22,7 @@
 
 其中纯C#写法，推荐用Action。
 而UnityAction和Action相比没什么大的区别
+
 ```c#
 public delegate void Action<in T1,in T2>(T1 arg1, T2 arg2);
 ```
@@ -35,3 +36,6 @@ ref:[Event Performance: C# vs. UnityEvent](https://jacksondunstan.com/articles/3
 
 而UnityEvent是封装了一层的，本质上是一个类。
 
+## 其他设计模式
+
+[专题 | Unity3D游戏开发中的设计模式 | 问渠 (wenqu.site)](https://wenqu.site/Unity-Design-Pattern.html)
