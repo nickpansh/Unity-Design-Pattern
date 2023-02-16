@@ -7,7 +7,7 @@
 装饰模式是一种用于替代继承的计数，它通过一种无需定义子类的方式给对象动态增加职责—使用对象之间的关联关系取代类之间的继承关系。
 
 
-![装饰者模式.drawio](https://pic.wenqu.site/uploads/2023/02/10/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.drawio.png)
+![装饰者模式.drawio](https://pic.wenqu.space/upload/2023/02/10/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.drawio.png)
 
 
 
@@ -27,7 +27,7 @@
 
 然后把ConductDelete组件挂载到Block对象上—很标准的组件化开发。
 
-![image-20230210095853519](https://pic.wenqu.site/uploads/2023/02/10/image-20230210095853519.png)
+![image-20230210095853519](https://pic.wenqu.space/upload/2023/02/10/image-20230210095853519.png)
 
 策划来了一个需求：要求赋予Block一个HP属性和Lock状态。
 
@@ -83,7 +83,7 @@ public class ConductDelete : MonoBehaviour
 
 策划怕你太闲，又提出了新需求。
 
-![](https://pic.wenqu.site/uploads/2023/02/10/98a347d22938473491a531b3442c28e0.jpeg)
+![](https://pic.wenqu.space/upload/2023/02/10/98a347d22938473491a531b3442c28e0.jpeg)
 
 这个需求是：
 
@@ -97,7 +97,7 @@ public class ConductDelete : MonoBehaviour
 
 第二个需求……写起来有点难看，但也不是不行。我把代码贴出来。
 
-![image-20230210111124190](https://pic.wenqu.site/uploads/2023/02/10/image-20230210111124190.png)
+![image-20230210111124190](https://pic.wenqu.space/upload/2023/02/10/image-20230210111124190.png)
 
 这时候你的主管来了，它看了看你的代码，又看了看你。
 
@@ -105,7 +105,7 @@ public class ConductDelete : MonoBehaviour
 
 你居然连**最少知道原则(LOD)**都不知道，居然写出这么深的调用！
 
-![image-20230210102908592](https://pic.wenqu.site/uploads/2023/02/10/image-20230210102908592.png)
+![image-20230210102908592](https://pic.wenqu.space/upload/2023/02/10/image-20230210102908592.png)
 
 于是你决定好好设计一番，让策划和程序主管都闭嘴
 
@@ -129,7 +129,7 @@ BlockDecorator类是装饰者模式里的Decorator，它负责抽象。
 
 最后我们的Block就是装饰者模式里的ConcreteDecorator，它负责实现。
 
-![装饰模式-demo.drawio](https://pic.wenqu.site/uploads/2023/02/10/%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F-demo.drawio.png)
+![装饰模式-demo.drawio](https://pic.wenqu.space/upload/2023/02/10/%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F-demo.drawio.png)
 
 部分代码摘录如下：
 
@@ -192,7 +192,7 @@ Block的代码也会很庞大。
 
 经过这么一系列操作后，装饰者模式被引入到了我们的代码中，我们的调用就非常好看了。
 
-![image-20230210114353033](https://pic.wenqu.site/uploads/2023/02/10/image-20230210114353033.png)
+![image-20230210114353033](https://pic.wenqu.space/upload/2023/02/10/image-20230210114353033.png)
 
 
 ## 什么时候用
