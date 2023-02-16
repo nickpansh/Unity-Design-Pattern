@@ -89,16 +89,15 @@
     - [x] **[观察者模式](./Assets/BehavioralPattern/Observer/README.md)**
     - [x] **[中介者模式](./Assets/BehavioralPattern/Mediator/README.md)**
     - [x] **[策略模式](./Assets/BehavioralPattern/Strategy/README.md)**
+    - [x] **[状态模式](./Assets/BehavioralPattern/State/README.md)**
+    - [] [模板方法模式]
   - 次要
 
     - [x] [责任链模式](./Assets/BehavioralPattern/ChainOfResponsibility/README.md)
     - [] [解释器模式]
+    - [] [备忘录模式]
+    - [] [访问者模式]
 
-
-- [] Memento
-- [] State
-- [] Template Method
-- [] Visitor
 
 **访问[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)以查看更多**
 

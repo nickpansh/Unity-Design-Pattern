@@ -88,16 +88,15 @@ Examples that have been completed so far are：
         - [x] **[Observer](./Assets/BehavioralPattern/Observer/README.md)**
         - [x] **[Mediator](./Assets/BehavioralPattern/Mediator/README.md)**
         - [x] **[Strategy](./Assets/BehavioralPattern/Strategy/README.md)**
-
+        - [x] **[State](./Assets/BehavioralPattern/State/README.md)**
+        - [x] **[Template Method]**
     - Peripheral
         - [x] [Chain Of Responsibility](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
+        - [] Interpetor
+        - [] Memento
+        - [] Visitor
 
 
-- [] Interpetor
-- [] Memento
-- [] State
-- [] Template Method
-- [] Visitor
 
 **Visit[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)to see more**
 
