@@ -88,14 +88,15 @@
     - [x] **[迭代器](./Assets/BehavioralPattern/Iterator/README.md)**
     - [x] **[观察者模式](./Assets/BehavioralPattern/Observer/README.md)**
     - [x] **[中介者模式](./Assets/BehavioralPattern/Mediator/README.md)**
-    
+    - [x] **[策略模式](./Assets/BehavioralPattern/Strategy/README.md)**
   - 次要
 
-    - [] [责任链模式](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
+    - [x] [责任链模式](./Assets/BehavioralPattern/ChainOfResponsibility/README.md)
+    - [] [解释器模式]
+
 
 - [] Memento
 - [] State
-- [] Strategy
 - [] Template Method
 - [] Visitor
 

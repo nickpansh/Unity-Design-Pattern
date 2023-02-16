@@ -51,10 +51,10 @@ See More:[Refactoring.Guru](https://refactoring.guru/design-patterns/flyweight)
 ## 内存开销对比
 
 不用享元:
-![](https://pic.wenqu.site/uploads/2023/01/31/20230131114215.png)
+![](https://pic.wenqu.space/upload/2023/01/31/20230131114215.png)
 
 用享元模式:
-![](https://pic.wenqu.site/uploads/2023/01/31/20230131114910.png)
+![](https://pic.wenqu.space/upload/2023/01/31/20230131114910.png)
 
 ## 其他设计模式
 

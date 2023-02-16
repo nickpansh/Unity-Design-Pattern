@@ -2,7 +2,7 @@
 
 > **抽象工厂模式**比工厂方法模式的抽象化程度更高，它提供一个创建一系列相关或相互依赖对象的接口，而无需指定他们的类。
 
-![](https://pic.wenqu.site/uploads/2023/02/02/abstract_factory.png)
+![](https://pic.wenqu.space/upload/2023/02/02/abstract_factory.png)
 
 
 [工厂方法模式]([Unity设计模式—工厂方法模式 | 问渠 (wenqu.site)](https://wenqu.site/Unity设计模式——工厂方法模式.html))解决了简单工厂模式种工厂类职责太重的问题，但由于工厂方法模式中的每个具体工厂只有一个或者一组重载的工厂方法，只能生产一种产品，可能会导致系统中存在大量的工厂类，势必会增加系统的开销。

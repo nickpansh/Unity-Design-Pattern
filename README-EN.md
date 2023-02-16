@@ -87,15 +87,15 @@ Examples that have been completed so far are：
         - [x] **[Iterator](./Assets/BehavioralPattern/Iterator/README.md)**
         - [x] **[Observer](./Assets/BehavioralPattern/Observer/README.md)**
         - [x] **[Mediator](./Assets/BehavioralPattern/Mediator/README.md)**
+        - [x] **[Strategy](./Assets/BehavioralPattern/Strategy/README.md)**
 
     - Peripheral
-
         - [x] [Chain Of Responsibility](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
 
 
+- [] Interpetor
 - [] Memento
 - [] State
-- [] Strategy
 - [] Template Method
 - [] Visitor
 
