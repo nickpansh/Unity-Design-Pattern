@@ -16,11 +16,13 @@ public abstract class AbstractSkill
 {
     /// <summary>
     /// 下一个技能
+    /// next skill
     /// </summary>
     protected AbstractSkill _nextSkill;
 
     /// <summary>
     /// 构造函数
+    /// constructor
     /// </summary>
     /// <param name="handler"></param>
     /// <returns></returns>
@@ -31,6 +33,7 @@ public abstract class AbstractSkill
 
     /// <summary>
     /// 是否能处理
+    /// true or not the skill can be handled
     /// </summary>
     /// <param name="mp"></param>
     /// <returns></returns>

@@ -22,6 +22,7 @@ namespace WenQu.ChainOfResponsibility
 
         /// <summary>
         /// 能否处理
+        /// true or not the skill can be handled
         /// </summary>
         /// <param name="mp"></param>
         /// <returns></returns>
@@ -31,6 +32,7 @@ namespace WenQu.ChainOfResponsibility
         }
         /// <summary>
         /// 处理技能
+        /// handle the skill by mp  value
         /// </summary>
         /// <param name="mp"></param>
         public override void Handle(float mp)

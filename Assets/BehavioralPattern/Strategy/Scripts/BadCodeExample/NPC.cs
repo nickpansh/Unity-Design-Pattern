@@ -1,3 +1,13 @@
+/*** 
+ * @Author: NickPansh
+ * @Date: 2023-02-16 12:37:02
+ * @LastEditors: NickPansh
+ * @LastEditTime: 2023-02-16 21:22:29
+ * @FilePath: \Unity-Design-Pattern\Assets\BehavioralPattern\Strategy\Scripts\BadCodeExample\NPC.cs
+ * @Description: 
+ * @
+ * @Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
+ */
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,7 +34,7 @@ namespace WenQu.Strategy.BadCodeExample
     }
     public class NPC : MonoBehaviour
     {
-        public NPCType npcType;
+        private NPCType npcType;
 
         void Start()
         {

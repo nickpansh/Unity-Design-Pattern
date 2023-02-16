@@ -1,6 +1,6 @@
 # Unity设计模式——原型模式
 
-![](https://pic.wenqu.site/other/design-pattern/prototype.png)
+![](https://pic.wenqu.space/other/design-pattern/prototype.png)
 
 ## Brief
 
