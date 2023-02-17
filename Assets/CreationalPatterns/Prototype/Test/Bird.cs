@@ -12,6 +12,7 @@ using System;
 namespace WenQu.Prototype
 {
     // 如果有嵌套，嵌套的子层也需要实现ICloneable
+    // If there is a nesting, the nested sublayer also needs to implement ICloneable
     public class Bird : ICloneable
     {
         public int age;

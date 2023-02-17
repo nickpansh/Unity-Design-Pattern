@@ -34,6 +34,7 @@ namespace WenQu.FactoryMethod
         }
 
         // 生成建筑，不符合单一职责原则：DecorateController后期会存在大量的GenXX方法越来越庞大
+        // Generate Building, not follow the Single Responsibility Principle
         private Building GenBuilding(GameObject prefab, string id)
         {
             GameObject gameObject = Object.Instantiate(prefab);
@@ -47,6 +48,7 @@ namespace WenQu.FactoryMethod
         }
 
         // 生成商店，不符合单一职责原则：DecorateController后期会存在大量的GenXX方法越来越庞大
+        // Generate Shop, not follow the Single Responsibility Principle
         private Shop GenShop(GameObject prefab, string id)
         {
             GameObject go = Object.Instantiate(prefab);
@@ -61,6 +63,7 @@ namespace WenQu.FactoryMethod
             return shop;
         }
         // 生成树木，不符合单一职责原则：DecorateController后期会存在大量的GenXX方法越来越庞大
+        // Generate Tree, not follow the Single Responsibility Principle
         private Tree GenTree(GameObject prefab, string id)
         {
             GameObject gameObject = Object.Instantiate(prefab);
@@ -75,11 +78,13 @@ namespace WenQu.FactoryMethod
         private void TreeLoadConf()
         {
             // 伪代码：加载本地文件，读取树的配置
+            // Pseudo code: load local file, read tree configuration
         }
 
         private void TreeAddToTreePool()
         {
             // 伪代码，加入TreePool
+            // Pseudo code, add to TreePool
         }
     }
 }

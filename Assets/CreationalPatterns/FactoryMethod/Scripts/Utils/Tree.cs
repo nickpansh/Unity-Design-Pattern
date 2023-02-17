@@ -36,11 +36,13 @@ namespace WenQu.FactoryMethod
         private void LoadConf()
         {
             // 伪代码：加载本地文件，读取树的配置
+            // Pseudo code: load local file, read tree configuration
         }
 
         private void AddToTreePool()
         {
             // 伪代码，加入TreePool
+            // Pseudo code, add to TreePool
         }
     }
 }
