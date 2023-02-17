@@ -16,19 +16,21 @@ namespace WenQu.FactoryMethod
 {
     public class FactoryMethodStarter : MonoBehaviour
     {
+
+        private BadDecorateCtrl _badDecorateCtrl;
+        private DecorateCtrl _decorateCtrl;
         /// <summary>
         /// 使用Good Code启动还是使用Bad Code启动
+        /// Use Good Code to start or use Bad Code to start
         /// </summary>
-        private BadDecorateCtrl badDecorateCtrl;
-        private DecorateCtrl decorateCtrl;
         public CodeExample codeSample = CodeExample.Good;
 
         void Start()
         {
-            badDecorateCtrl = GetComponent<BadDecorateCtrl>();
-            decorateCtrl = GetComponent<DecorateCtrl>();
-            badDecorateCtrl.enabled = CodeExample.Good != codeSample;
-            decorateCtrl.enabled = CodeExample.Good == codeSample;
+            _badDecorateCtrl = GetComponent<BadDecorateCtrl>();
+            _decorateCtrl = GetComponent<DecorateCtrl>();
+            _badDecorateCtrl.enabled = CodeExample.Good != codeSample;
+            _decorateCtrl.enabled = CodeExample.Good == codeSample;
 
         }
 

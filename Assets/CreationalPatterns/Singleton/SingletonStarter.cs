@@ -2,8 +2,8 @@
  * @Author: NickPansh
  * @Date: 2023-01-31 19:23:12
  * @LastEditors: NickPansh
- * @LastEditTime: 2023-01-31 19:28:11
- * @FilePath: \Unity-Design-Pattern\Assets\Singleton\SingletonStarter.cs
+ * @LastEditTime: 2023-02-17 18:06:13
+ * @FilePath: \Unity-Design-Pattern\Assets\CreationalPatterns\Singleton\SingletonStarter.cs
  * @Description: 
  * @
  * @Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
@@ -20,7 +20,6 @@ namespace WenQu.SingletonPattern
         void Start()
         {
             TestCSharpSingleton();
-
             TestUnitySingleton();
         }
 
@@ -56,6 +55,7 @@ namespace WenQu.SingletonPattern
             Debug.LogFormat("mono singleton instance2 hashId:{0}", instance2.GetHashCode());
 
             // 和正统的单例不同(#Anchor1)。继承Mono的单例无法阻止玩家挂脚本，但是可以在玩家生成后立即去销毁并报一个错误
+            // different from the csharp singleton(#Anchor1). The inherited Mono singleton cannot prevent the player from hanging up the script, but it can destroy it immediately after the player is generated and report an error
             SoundSingleton instance3 = this.gameObject.AddComponent<SoundSingleton>();
             Debug.LogFormat("mono singleton instance3 hashId:{0}", instance2.GetHashCode());
         }

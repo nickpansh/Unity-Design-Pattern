@@ -4,7 +4,7 @@
  * @LastEditors: NickPansh
  * @LastEditTime: 2023-02-15 19:19:36
  * @FilePath: \Unity-Design-Pattern\Assets\BehavioralPattern\ChainOfResponsibility\Scripts\Example\AbstractSkill.cs
- * @Description: 抽象技能
+ * @Description: 抽象技能 abstract skill
  * @
  * @Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
  */

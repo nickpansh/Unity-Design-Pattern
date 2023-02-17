@@ -28,6 +28,7 @@ namespace WenQu.FactoryMethod
             building.id = id;
             count++;
             //等等一系列用于Create一个Building的操作
+            //A series of operations for creating a Building
             return building;
         }
     }
