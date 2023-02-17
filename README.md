@@ -90,7 +90,7 @@
     - [x] **[中介者模式](./Assets/BehavioralPattern/Mediator/README.md)**
     - [x] **[策略模式](./Assets/BehavioralPattern/Strategy/README.md)**
     - [x] **[状态模式](./Assets/BehavioralPattern/State/README.md)**
-    - [] [模板方法模式]
+    - [x] **[模板方法模式](./Assets/BehavioralPattern/TemplateMethod/README.md)**
   - 次要
 
     - [x] [责任链模式](./Assets/BehavioralPattern/ChainOfResponsibility/README.md)

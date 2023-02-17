@@ -89,7 +89,7 @@ Examples that have been completed so far are：
         - [x] **[Mediator](./Assets/BehavioralPattern/Mediator/README.md)**
         - [x] **[Strategy](./Assets/BehavioralPattern/Strategy/README.md)**
         - [x] **[State](./Assets/BehavioralPattern/State/README.md)**
-        - [x] **[Template Method]**
+        - [x] **[Template Method](./Assets/BehavioralPattern/TemplateMethod/README.md)**
     - Peripheral
         - [x] [Chain Of Responsibility](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
         - [] Interpetor
