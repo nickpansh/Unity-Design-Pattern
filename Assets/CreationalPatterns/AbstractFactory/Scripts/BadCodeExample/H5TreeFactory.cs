@@ -8,3 +8,16 @@
  * @
  * @Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
  */
+using UnityEngine;
+namespace WenQu.AbstractFactory.Bad
+{
+    public class H5TreeFactory
+    {
+        public H5Tree Create(GameObject tree, string id)
+        {
+            var t = new H5Tree();
+
+            return t;
+        }
+    }
+}

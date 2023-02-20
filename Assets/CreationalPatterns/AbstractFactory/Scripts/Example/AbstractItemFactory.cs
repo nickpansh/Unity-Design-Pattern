@@ -15,8 +15,8 @@ namespace WenQu.AbstractFactory
     public abstract class AbstractItemFactory
     {
 
-        public abstract Building CreateBuilding(GameObject prefab, string id);
-        public abstract Shop CreateShop(GameObject prefab, string id);
+        public abstract WenQu.FactoryMethod.Building CreateBuilding(GameObject prefab, string id);
+        public abstract WenQu.FactoryMethod.Shop CreateShop(GameObject prefab, string id);
         public abstract WenQu.FactoryMethod.Tree CreateTree(GameObject tree, string id);
     }
 }

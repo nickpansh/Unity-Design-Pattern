@@ -28,7 +28,8 @@ namespace WenQu.AbstractFactory
             building.gameObject.transform.localPosition = new Vector3(buildingCount, 0, buildingCount) * gameObject.transform.localScale.x;
             building.id = id;
             buildingCount++;
-            //Switch平台创建Building的后续操作
+            // Switch平台创建Building的后续操作
+            // and other operations to create building on Switch platform
             //
             //
             //
@@ -47,7 +48,8 @@ namespace WenQu.AbstractFactory
             }
             shop.gameObject.transform.localPosition = new Vector3(shopCount * shop.gameObject.transform.localScale.x, 3, shopCount * shop.gameObject.transform.localScale.x);
             shopCount++;
-            //Switch平台创建Shop的后续操作
+            // Switch平台创建Shop的后续操作
+            // and other operations to create shop on Switch platform
             //
             //
             //
@@ -64,6 +66,7 @@ namespace WenQu.AbstractFactory
             tree.gameObject.transform.localPosition = new Vector3(treeCount * gameObject.transform.localScale.x, 6, treeCount * gameObject.transform.localScale.x);
             treeCount++;
             //Switch平台创建Tree的后续操作
+            // and other operations to create tree on Switch platform
             //
             //
             //
@@ -74,11 +77,13 @@ namespace WenQu.AbstractFactory
         private void LoadConf()
         {
             // 伪代码：加载本地文件，读取树的配置
+            // pseudo code: load local file, read tree config
         }
 
         private void AddToTreePool()
         {
             // 伪代码，加入TreePool
+            // pseudo code, add to TreePool
         }
     }
 }

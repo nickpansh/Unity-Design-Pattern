@@ -8,3 +8,16 @@
  * @
  * @Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
  */
+using UnityEngine;
+namespace WenQu.AbstractFactory.Bad
+{
+    public class H5ShopFactory
+    {
+        public H5Shop Create(GameObject tree, string id)
+        {
+            var shop = new H5Shop();
+
+            return shop;
+        }
+    }
+}

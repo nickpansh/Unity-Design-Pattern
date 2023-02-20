@@ -8,3 +8,16 @@
  * @
  * @Copyright (c) 2023 by nickpansh@yeah.net | wenqu.site, All Rights Reserved. 
  */
+using UnityEngine;
+namespace WenQu.AbstractFactory.Bad
+{
+    public class SwitchBuildingFactory
+    {
+        public SwitchBuilding Create(GameObject tree, string id)
+        {
+            var building = new SwitchBuilding();
+
+            return building;
+        }
+    }
+}
