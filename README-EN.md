@@ -92,7 +92,7 @@ Examples that have been completed so far are：
         - [x] **[Template Method](./Assets/BehavioralPattern/TemplateMethod/README.md)**
     - Peripheral
         - [x] [Chain Of Responsibility](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
-        - [x] [Interpetor](./Assets/BehavioralPattern/Interpreter/README.md)
+        - [x] [Interpreter](./Assets/BehavioralPattern/Interpreter/README.md)
         - [] Memento
         - [] Visitor
 
