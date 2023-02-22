@@ -95,7 +95,7 @@
 
     - [x] [责任链模式](./Assets/BehavioralPattern/ChainOfResponsibility/README.md)
     - [x] [解释器模式](./Assets/BehavioralPattern/Interpreter/README.md)
-    - [] [备忘录模式]
+    - [x] [备忘录模式](./Assets/BehavioralPattern/Memento/README.md)
     - [] [访问者模式]
 
 
