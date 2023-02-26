@@ -2,7 +2,7 @@
  * @Author: NickPansh
  * @Date: 2023-02-16 17:12:50
  * @LastEditors: NickPansh
- * @LastEditTime: 2023-02-16 21:03:09
+ * @LastEditTime: 2023-02-26 10:16:02
  * @FilePath: \Unity-Design-Pattern\Assets\BehavioralPattern\State\Scripts\Example\UltimateSkillState.cs
  * @Description: 蓄力后大招状态
  * @
@@ -14,7 +14,7 @@ using UnityEngine.Assertions;
 
 namespace WenQu.State
 {
-    public class UltimateSkillState : IState
+    public class UltimateSkillState : IState<Character>
     {
         private int _fullPathHash;
         private int _skillId;
@@ -47,7 +47,7 @@ namespace WenQu.State
 
         }
 
-        public IState OnUpdate(Character t)
+        public IState<Character> OnUpdate(Character t)
         {
             _dt += Time.deltaTime;
             var _animatorStateInfo = t.animator.GetCurrentAnimatorStateInfo(0);

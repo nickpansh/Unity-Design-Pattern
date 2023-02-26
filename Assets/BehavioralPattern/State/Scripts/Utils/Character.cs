@@ -2,7 +2,7 @@
  * @Author: NickPansh
  * @Date: 2023-02-14 14:12:16
  * @LastEditors: NickPansh
- * @LastEditTime: 2023-02-16 18:56:02
+ * @LastEditTime: 2023-02-26 10:16:53
  * @FilePath: \Unity-Design-Pattern\Assets\BehavioralPattern\State\Scripts\Utils\Character.cs
  * @Description: 
  * @
@@ -16,13 +16,13 @@ namespace WenQu.State
     public class Character : MonoBehaviour
     {
         public Animator animator;
-        protected IState state;
+        protected IState<Character> state;
 
         public virtual void Update()
         {
             if (null != state)
             {
-                IState newState = state.OnUpdate(this);
+                IState<Character> newState = state.OnUpdate(this);
                 //状态切换
                 //state switch
                 if (null != newState)
@@ -37,7 +37,7 @@ namespace WenQu.State
         /// Transition state
         /// </summary>
         /// <param name="newState"></param>
-        public void TransitionState(IState newState)
+        public void TransitionState(IState<Character> newState)
         {
             Debug.Log($"状态变更{newState}");
             newState.OnEnter(this);

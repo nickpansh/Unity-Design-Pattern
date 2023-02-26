@@ -2,7 +2,7 @@
  * @Author: NickPansh
  * @Date: 2023-02-16 16:27:15
  * @LastEditors: NickPansh
- * @LastEditTime: 2023-02-16 20:33:05
+ * @LastEditTime: 2023-02-26 10:17:04
  * @FilePath: \Unity-Design-Pattern\Assets\BehavioralPattern\State\Scripts\Example\EludeState.cs
  * @Description: 闪避阶段
  * @后续可以跟4种状态：Idle,Skill,Max
@@ -11,7 +11,7 @@
 using UnityEngine;
 namespace WenQu.State
 {
-    public class EludeState : IState
+    public class EludeState : IState<Character>
     {
         // 被打断时长
         // be break duration
@@ -41,7 +41,7 @@ namespace WenQu.State
             t.animator.SetBool(AnimationTriggers.hashIdDefaultElude, false);
         }
 
-        public IState OnUpdate(Character t)
+        public IState<Character> OnUpdate(Character t)
         {
             _timeAccumulation += Time.deltaTime;
             if (_timeAccumulation >= _Max_Accumulation_Time)

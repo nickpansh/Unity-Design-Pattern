@@ -1,7 +1,7 @@
 using UnityEngine;
 namespace WenQu.State
 {
-    public class IdleState : IState
+    public class IdleState : IState<Character>
     {
 
 
@@ -15,7 +15,7 @@ namespace WenQu.State
             //Do Nothing
         }
 
-        public IState OnUpdate(Character t)
+        public IState<Character> OnUpdate(Character t)
         {
             // 这里用的是实例化状态。
             // 若只控制单个角色可以用静态化状态。
