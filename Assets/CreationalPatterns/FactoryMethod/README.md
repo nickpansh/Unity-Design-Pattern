@@ -4,14 +4,14 @@
 
 > **工厂方法模式**是简单工厂模式的延伸，它保留了简单工厂模式优点点，同时还弥补了简单工厂的缺陷：能更好地符合开闭原则要求，在增加新的具体产品对象时无需对已有系统做任何修改。
 
-![](https://pic.wenqu.space/upload/2023/02/01/factorymethod.png)
+![](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/01/factorymethod.png)
 
 这里简单介绍下工厂方法模式和工厂模式的区别：
 
 一言以蔽之，工厂方法模式通过引入抽象工厂类，使得系统更符合开闭原则，比简单工厂模式更好。
 <!-- more -->
 
-![factoryVSfactoryMethod_cn](https://pic.wenqu.space/upload/2023/02/01/factoryVSfactoryMethod_cn.png)
+![factoryVSfactoryMethod_cn](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/01/factoryVSfactoryMethod_cn.png)
 
 
 ### The Question | 需求

@@ -2,7 +2,7 @@
 
 > 命令模式是回调函数的面向对象替代品。它将一个请求封装成一个对象，从而让你可以用不同的请求对客户进行参数化，对请求排队或者记录请求日志以支持可以撤销的操作。
 
-![命令模式](.https://pic.wenqu.space/upload/design-pattern/命令模式.jpg)
+![命令模式](.https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/design-pattern/命令模式.jpg)
 
 
 更多细节可以查看[命令设计模式 (refactoringguru.cn)](https://refactoringguru.cn/design-patterns/command)
@@ -32,7 +32,7 @@
 - 具体命令类有点多，如果没有编辑器和语言的强力支持（如你是用Lua开发），引入命令模式维护成本比较高
 
 ## 结构
-![](https://refactoringguru.cnhttps://pic.wenqu.space/upload/patterns/diagrams/command/structure.png)
+![](https://refactoringguru.cnhttps://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/patterns/diagrams/command/structure.png)
 
 命令模式包含一个抽象命令类，具体命令类，调用者，和接收者这四个角色。
 
