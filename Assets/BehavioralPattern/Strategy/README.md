@@ -22,7 +22,7 @@
 
 ## 结构
 
-![image-20230216114040669](https://pic.wenqu.space/upload/2023/02/16/image-20230216114040669.png)
+![image-20230216114040669](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/16/image-20230216114040669.png)
 
 
 

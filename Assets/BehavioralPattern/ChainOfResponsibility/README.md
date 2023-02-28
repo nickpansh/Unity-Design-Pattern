@@ -23,7 +23,7 @@ tags:
 
 责任链的结构比较简单，核心在于引入了一个抽象handle。
 
-![责任链.drawio](https://pic.wenqu.space/upload/2023/02/13/%E8%B4%A3%E4%BB%BB%E9%93%BE.drawio.png)
+![责任链.drawio](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/13/%E8%B4%A3%E4%BB%BB%E9%93%BE.drawio.png)
 
 
 
@@ -33,7 +33,7 @@ tags:
 
 现在策划要你制作一个智能塔，长这样：
 
-![image-20230213191716237](https://pic.wenqu.space/upload/2023/02/13/image-20230213191716237.png)
+![image-20230213191716237](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/13/image-20230213191716237.png)
 
 这个塔有能量条，会伴随时间自动恢复能量。
 
@@ -67,7 +67,7 @@ if(mp>=100){
 
 刚准备提交，策划说：且慢
 
-![](https://pic.wenqu.space/upload/2023/02/13/20230213193034.png)
+![](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/13/20230213193034.png)
 
 我们策划组讨论了一下，我要修改一下mp介于20-50的行为：一次可以统计两个敌人，伤害不减半。
 

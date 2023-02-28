@@ -10,7 +10,7 @@
 
 客户端针对该抽象构建类进行编程，无需知道它到底表示的是叶子还是容器，可以对他进行统一的管理。
 
-![组合模式.drawio](https://pic.wenqu.space/upload/2023/02/09/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.drawio.png)
+![组合模式.drawio](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/09/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.drawio.png)
 
 ### 需求
 
@@ -68,7 +68,7 @@ public void Sell(Component com){
 
 ### 好代码（用组合模式实现需求）
 
-![组合模式例子.drawio](https://pic.wenqu.space/upload/2023/02/09/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F%E4%BE%8B%E5%AD%90.drawio.png)
+![组合模式例子.drawio](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/09/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F%E4%BE%8B%E5%AD%90.drawio.png)
 
 
 实际上体现了面向接口编程的思想。

@@ -7,13 +7,13 @@
 
 <!-- more -->
 
-![](https://pic.wenqu.space/upload/2023/02/10/structure.png)
+![](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/10/structure.png)
 
 ## 需求&差代码
 
 你在开发模拟人生游戏。
 
-![](https://pic.wenqu.space/upload/2023/02/10/image001_S.jpg)
+![](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/10/image001_S.jpg)
 
 策划提出一个需求，当玩家走到房间触发器的时候要：
 
@@ -72,7 +72,7 @@ private void OnTriggerExit(){
 
 
 
-![](https://pic.wenqu.space/upload/2023/02/10/201782513515278029.jpg))
+![](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/10/201782513515278029.jpg))
 
 
 
@@ -103,7 +103,7 @@ private void OnTriggerExit(){
 
 
 
-![](https://pic.wenqu.space/upload/2023/02/10/91b8bdcf59.gif)
+![](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/10/91b8bdcf59.gif)
 
 
 

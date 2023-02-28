@@ -278,7 +278,7 @@ Pet pet = (Pet)petBuilder.ConstructFull();
 
 ### Structure | 模式结构
 
-![](https://pic.wenqu.space/upload/2023/02/06/20230206170901.png)
+![](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/06/20230206170901.png)
 
 
 

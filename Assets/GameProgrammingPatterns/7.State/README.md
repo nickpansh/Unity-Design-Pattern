@@ -1,0 +1,1 @@
+see also:[State Pattern](/Assets/BehavioralPattern/State/README.md)

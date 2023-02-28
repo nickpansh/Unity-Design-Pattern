@@ -96,6 +96,9 @@ Examples that have been completed so far are：
         - [x] [Memento](./Assets/BehavioralPattern/Memento/README.md)
         - [] Visitor
 
+- **《Game Programming Patterns》**
+  - [x] **[Chapter 2-Command](./Assets/GameProgrammingPatterns/2.Command/README.md)**
+  - [x] **[Chapter 3-State](./Assets/GameProgrammingPatterns/7.State/README.md)**
 
 
 **Visit[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)to see more**

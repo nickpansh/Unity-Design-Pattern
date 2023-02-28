@@ -1,6 +1,6 @@
 # 迭代器模式
 
-![迭代器](https://pic.wenqu.space/upload/2023/02/14/%E8%BF%AD%E4%BB%A3%E5%99%A8.png)
+![迭代器](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/14/%E8%BF%AD%E4%BB%A3%E5%99%A8.png)
 
 > **迭代器模式**：提供一种方法顺序访问一个聚合对象中的各个元素，且不暴露该对象的内部表示。
 
@@ -52,7 +52,7 @@ Tips：
 - 不希望的装箱操作。
 
 
-![两种版本](https://pic.wenqu.space/upload/2023/01/16/20230116171801.png) 
+![两种版本](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/01/16/20230116171801.png) 
 
 #### Transform与迭代器
 
@@ -196,7 +196,7 @@ ref:[Unity协程的原理与应用 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.
 
 
 
-![迭代器csharp.drawio](https://pic.wenqu.space/upload/2023/02/14/%E8%BF%AD%E4%BB%A3%E5%99%A8csharp.drawio.png)
+![迭代器csharp.drawio](https://wenqu-1315878694.cos.ap-shanghai.myqcloud.com/www/uploads/2023/02/14/%E8%BF%AD%E4%BB%A3%E5%99%A8csharp.drawio.png)
 
 ## 动手实现
 
