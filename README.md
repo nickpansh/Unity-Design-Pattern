@@ -39,7 +39,7 @@
 
 - 对Unity游戏开发有一定了解，想**提升代码质量**的工程师。
 - 对Unity游戏开发和设计模式都有一定了解，想**复习设计模式**的工程师。
-- 对游戏开发感兴趣，并准备在此领域**深挖**的**初级程序员。
+- 对游戏开发感兴趣，并准备在此领域**深挖**的初级程序员。
 - 对Unity游戏开发完全不了解，但对设计模式感兴趣，想寻找模式**应用例子**的工程师。
 
 ### 不适合谁看
@@ -98,6 +98,9 @@
     - [x] [备忘录模式](./Assets/BehavioralPattern/Memento/README.md)
     - [] [访问者模式]
 
+- **《游戏编程模式》**
+  - [x] **[第二章-命令模式](./Assets/GameProgrammingPatterns/2.Command/README.md)**
+  - [x] **[第七章-状态模式](./Assets/GameProgrammingPatterns/7.State/README.md)**
 
 **访问[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)以查看更多**
 

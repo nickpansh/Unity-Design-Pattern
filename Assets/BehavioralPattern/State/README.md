@@ -141,33 +141,11 @@ public class UltimateSkillState : IState
 
 ![](https://pic.wenqu.space/uploads/2023/02/16/StateMachine.gif)
 
-## 关于静态状态与实例化状态
+## 更多
 
-根据状态是否实例化，有限状态机又可以区分为静态状态和实例化状态
-
-实例化状态
-
-![image-20230216211432439](https://pic.wenqu.space/uploads/2023/02/16/image-20230216211432439.png)
-
-实例化状态可以考虑用对象池来进行优化。
-
-若全局只有一个对象，可以用静态状态
-
-```c#
-//找一个地方声明静态变量，可以放到基状态类中
-static JumpState TheJumpState;
-```
-
-```c#
-public IState OnUpdate(Character t)
-{
-
-    if (Input.GetKeyDown(KeyCode.Space)) //space for jump
-    {
-        return TheJumpState;
-    }
-}
-```
+有限状态机还有一些衍生的设计。
+如状态翻转，全局状态，分层状态机等。
+代码在FSMExample里，具体的介绍限于篇幅这里不展开，感兴趣的可以查看[UnityAI专题—有限状态机](https://www.wenqu.site/UnityAI%E4%B8%93%E9%A2%98-%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA.html)
 
 
 ## 其他设计模式
