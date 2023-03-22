@@ -83,12 +83,12 @@ Examples that have been completed so far are：
 - **Behavioral design patterns**
 
     - **Core**
-        - [x] **[Command](./Assets/BehavioralPattern/Command/README.md)**
+        - [x] **[Command](./Assets/GameProgrammingPatterns/2.Command/README.md)**
         - [x] **[Iterator](./Assets/BehavioralPattern/Iterator/README.md)**
         - [x] **[Observer](./Assets/BehavioralPattern/Observer/README.md)**
         - [x] **[Mediator](./Assets/BehavioralPattern/Mediator/README.md)**
         - [x] **[Strategy](./Assets/BehavioralPattern/Strategy/README.md)**
-        - [x] **[State](./Assets/BehavioralPattern/State/README.md)**
+        - [x] **[State](./Assets/GameProgrammingPatterns/7.State/README.md)**
         - [x] **[Template Method](./Assets/BehavioralPattern/TemplateMethod/README.md)**
         
     - Peripheral
@@ -98,10 +98,15 @@ Examples that have been completed so far are：
         - [] Visitor
 
 - **《Game Programming Patterns》**
-  - [x] **[Chapter 2-Command](./Assets/GameProgrammingPatterns/2.Command/README.md)**
-  - [x] **[Chapter 7-State](./Assets/GameProgrammingPatterns/7.State/README.md)**
+
+  - [x] Chapter 2 Command(had already referred)
+  - [x] Chapter 3 Flyweight(had already referred)
+  - [x] Chapter 4 Observer(had already referred)
+  - [x] Chapter 5 Prototype(had already referred)
+  - [x] Chapter 6 Singleton(had already referred)
+  - [x] Chapter 7 State(had already referred)
   - [x] **[Chapter 14-Component](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
-  - [x] **[Chapter 16-ServiceLocator](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)
+  - [x] **[Chapter 16-ServiceLocator](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)**
 
 
 **Visit[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)to see more**
