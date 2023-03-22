@@ -90,6 +90,7 @@ Examples that have been completed so far are：
         - [x] **[Strategy](./Assets/BehavioralPattern/Strategy/README.md)**
         - [x] **[State](./Assets/BehavioralPattern/State/README.md)**
         - [x] **[Template Method](./Assets/BehavioralPattern/TemplateMethod/README.md)**
+        
     - Peripheral
         - [x] [Chain Of Responsibility](./Assets/BehavioralPattern/ChainOfResponsibility/READ.md)
         - [x] [Interpreter](./Assets/BehavioralPattern/Interpreter/README.md)
@@ -98,7 +99,8 @@ Examples that have been completed so far are：
 
 - **《Game Programming Patterns》**
   - [x] **[Chapter 2-Command](./Assets/GameProgrammingPatterns/2.Command/README.md)**
-  - [x] **[Chapter 3-State](./Assets/GameProgrammingPatterns/7.State/README.md)**
+  - [x] **[Chapter 7-State](./Assets/GameProgrammingPatterns/7.State/README.md)**
+  - [x] **[Chapter 16-ServiceLocator](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)
 
 
 **Visit[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)to see more**
