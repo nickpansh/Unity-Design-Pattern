@@ -84,12 +84,12 @@
 - **行为型模式**
 
   - **重要**
-    - [x] **[命令模式](./Assets/BehavioralPattern/Command/README.md)**
+    - [x] **[命令模式](./Assets/GameProgrammingPatterns/2.Command/README.md)**
     - [x] **[迭代器](./Assets/BehavioralPattern/Iterator/README.md)**
     - [x] **[观察者模式](./Assets/BehavioralPattern/Observer/README.md)**
     - [x] **[中介者模式](./Assets/BehavioralPattern/Mediator/README.md)**
     - [x] **[策略模式](./Assets/BehavioralPattern/Strategy/README.md)**
-    - [x] **[状态模式](./Assets/BehavioralPattern/State/README.md)**
+    - [x] **[状态模式](./Assets/GameProgrammingPatterns/7.State/README.md)**
     - [x] **[模板方法模式](./Assets/BehavioralPattern/TemplateMethod/README.md)**
     
   - 次要
@@ -100,9 +100,13 @@
     - [] [访问者模式]
 
 - **《游戏编程模式》**
-  - [x] **[第2章-命令模式](./Assets/GameProgrammingPatterns/2.Command/README.md)**
-  - [x] **[第7章-状态模式](./Assets/GameProgrammingPatterns/7.State/README.md)**
-  - [x] **[第14章-组件模式](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
+  - [x] 第2章-命令模式(上文已提到)
+  - [x] 第3章-享元模式(上文已提到)
+  - [x] 第4章-观察者模式(上文已提到)
+  - [x] 第5章-原型模式(上文已提到)
+  - [x] 第6章-单例模式(上文已提到)
+  - [x] 第7章-状态模式(上文已提到)
+  - [x] [第14章-组件模式](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
   - [x] **[第16章-服务定位器模式](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)
 
 **访问[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)以查看更多**
