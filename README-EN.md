@@ -100,6 +100,7 @@ Examples that have been completed so far are：
 - **《Game Programming Patterns》**
   - [x] **[Chapter 2-Command](./Assets/GameProgrammingPatterns/2.Command/README.md)**
   - [x] **[Chapter 7-State](./Assets/GameProgrammingPatterns/7.State/README.md)**
+  - [x] **[Chapter 14-Component](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
   - [x] **[Chapter 16-ServiceLocator](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)
 
 

@@ -100,9 +100,10 @@
     - [] [访问者模式]
 
 - **《游戏编程模式》**
-  - [x] **[第二章-命令模式](./Assets/GameProgrammingPatterns/2.Command/README.md)**
-  - [x] **[第七章-状态模式](./Assets/GameProgrammingPatterns/7.State/README.md)**
-  - [x] **[第十六章-服务定位器模式](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)
+  - [x] **[第2章-命令模式](./Assets/GameProgrammingPatterns/2.Command/README.md)**
+  - [x] **[第7章-状态模式](./Assets/GameProgrammingPatterns/7.State/README.md)**
+  - [x] **[第14章-组件模式](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
+  - [x] **[第16章-服务定位器模式](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)
 
 **访问[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)以查看更多**
 
