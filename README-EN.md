@@ -105,6 +105,7 @@ Examples that have been completed so far are：
   - [x] Chapter 5 Prototype(had already referred)
   - [x] Chapter 6 Singleton(had already referred)
   - [x] Chapter 7 State(had already referred)
+  - [x] **[Chapter 8-DoubleBuffer](./Assets/GameProgrammingPatterns/8.DoubleBuffer/README.md)**
   - [x] **[Chapter 14-Component](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
   - [x] **[Chapter 16-ServiceLocator](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)**
 
