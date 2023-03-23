@@ -106,7 +106,8 @@
   - [x] 第5章-原型模式(上文已提到)
   - [x] 第6章-单例模式(上文已提到)
   - [x] 第7章-状态模式(上文已提到)
-  - [x] [第14章-组件模式](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
+  - [x] **[第8章-组件模式](./Assets/GameProgrammingPatterns/8.DoubleBuffer/README.md)**
+  - [x] **[第14章-组件模式](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
   - [x] **[第16章-服务定位器模式](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)
 
 **访问[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)以查看更多**
