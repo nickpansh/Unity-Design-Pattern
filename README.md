@@ -107,6 +107,8 @@
   - [x] 第6章-单例模式(上文已提到)
   - [x] 第7章-状态模式(上文已提到)
   - [x] **[第8章-组件模式](./Assets/GameProgrammingPatterns/8.DoubleBuffer/README.md)**
+  - [x] **[第9章-游戏循环](./Assets/GameProgrammingPatterns/9.GameLoop/README.md)**
+  - [x] **[第12章-子类沙盒](./Assets/GameProgrammingPatterns/12.SubclassSandbox/README.md)**
   - [x] **[第14章-组件模式](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
   - [x] **[第16章-服务定位器模式](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)**
   - [x] **[第19章-对象池模式](./Assets/GameProgrammingPatterns/19.ObjectPool/README.md)**

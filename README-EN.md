@@ -99,14 +99,15 @@ Examples that have been completed so far are：
 
 - **《Game Programming Patterns》**
 
-  - [x] Chapter 2-Command(had already referred)
-  - [x] Chapter 3-Flyweight(had already referred)
-  - [x] Chapter 4-Observer(had already referred)
-  - [x] Chapter 5-Prototype(had already referred)
-  - [x] Chapter 6-Singleton(had already referred)
-  - [x] Chapter 7-State(had already referred)
+  - [x] Chapter 2-Command(already mentioned)
+  - [x] Chapter 3-Flyweight(already mentioned)
+  - [x] Chapter 4-Observer(already mentioned)
+  - [x] Chapter 5-Prototype(already mentioned)
+  - [x] Chapter 6-Singleton(already mentioned)
+  - [x] Chapter 7-State(already mentioned)
   - [x] **[Chapter 8-DoubleBuffer](./Assets/GameProgrammingPatterns/8.DoubleBuffer/README.md)**
-  - [x] **[Chapter 9-GameLoop](https://www.wenqu.site/Unity设计模式-游戏循环.html)**
+  - [x] **[Chapter 9-GameLoop](./Assets/GameProgrammingPatterns/9.GameLoop/README.md)**
+  - [x] **[Chapter 12-SubclassSandbox](./Assets/GameProgrammingPatterns/12.SubclassSandbox/README.md)**
   - [x] **[Chapter 14-Component](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
   - [x] **[Chapter 16-ServiceLocator](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)**
   - [x] **[Chapter 19-ObjectPool](./Assets/GameProgrammingPatterns/19.ObjectPool/README.md)**
