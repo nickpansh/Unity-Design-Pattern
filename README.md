@@ -110,6 +110,7 @@
   - [x] **[第9章-游戏循环](./Assets/GameProgrammingPatterns/9.GameLoop/README.md)**
   - [x] **[第12章-子类沙盒](./Assets/GameProgrammingPatterns/12.SubclassSandbox/README.md)**
   - [x] **[第14章-组件模式](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
+  - [x] **[第15章-事件队列](./Assets/GameProgrammingPatterns/15.EventQueue/README.md)**
   - [x] **[第16章-服务定位器模式](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)**
   - [x] **[第19章-对象池模式](./Assets/GameProgrammingPatterns/19.ObjectPool/README.md)**
 **访问[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)以查看更多**

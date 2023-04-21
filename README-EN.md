@@ -109,6 +109,7 @@ Examples that have been completed so far are：
   - [x] **[Chapter 9-GameLoop](./Assets/GameProgrammingPatterns/9.GameLoop/README.md)**
   - [x] **[Chapter 12-SubclassSandbox](./Assets/GameProgrammingPatterns/12.SubclassSandbox/README.md)**
   - [x] **[Chapter 14-Component](./Assets/GameProgrammingPatterns/14.Component/Readme.md)**
+  - [x] **[Chapter 15-EventQueue](./Assets/GameProgrammingPatterns/15.EventQueue/README.md)**
   - [x] **[Chapter 16-ServiceLocator](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)**
   - [x] **[Chapter 19-ObjectPool](./Assets/GameProgrammingPatterns/19.ObjectPool/README.md)**
 
