@@ -112,6 +112,7 @@ Examples that have been completed so far are：
   - [x] **[Chapter 15-EventQueue](./Assets/GameProgrammingPatterns/15.EventQueue/README.md)**
   - [x] **[Chapter 16-ServiceLocator](./Assets/GameProgrammingPatterns/16.ServiceLocator/README.md)**
   - [x] **[Chapter 17-DataLocality](./Assets/GameProgrammingPatterns/17.DataLocality/README.md)**
+  - [x] **[Chapter 18-DirtyFlag](./Assets/GameProgrammingPatterns/18.DirtyFlag/README.md)**
   - [x] **[Chapter 19-ObjectPool](./Assets/GameProgrammingPatterns/19.ObjectPool/README.md)**
 
 
