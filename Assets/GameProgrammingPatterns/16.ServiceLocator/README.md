@@ -151,6 +151,10 @@ Locator.RemoveManager<NetworkManager>();
 - 现在我们也不用担心单例的一些初始化步骤在哪里进行—只要用空对象模式即可。
 - 我们可以在运行时更换服务。
 
+### 问题
+
+由于Unity开发中往往会并存Mono和纯C#，一个纯C#的服务定位器无法有效地同时管理Mono和纯C#的服务。这种时候推荐配合使用[洋葱圈架构](../../ArchitecturePattern/OnionArchitecture/README.md)来开发一个分层的服务定位器。
+
 ## 其他设计模式
 
 [专题 | Unity3D游戏开发中的设计模式 | 问渠 (wenqu.site)](https://wenqu.site/Unity-Design-Pattern.html)
