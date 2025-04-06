@@ -114,7 +114,9 @@ Examples that have been completed so far are：
   - [x] **[Chapter 17-DataLocality](./Assets/GameProgrammingPatterns/17.DataLocality/README.md)**
   - [x] **[Chapter 18-DirtyFlag](./Assets/GameProgrammingPatterns/18.DirtyFlag/README.md)**
   - [x] **[Chapter 19-ObjectPool](./Assets/GameProgrammingPatterns/19.ObjectPool/README.md)**
-
+  
+- **Game Architecture**
+  - [x] **[Onion Architecture](./Assets/ArchitecturePattern/OnionArchitecture/README.md)**
 
 **Visit[专题 | Unity3D中的设计模式](https://www.wenqu.site/Unity-Design-Pattern.html)to see more**
 
